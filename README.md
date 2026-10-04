@@ -1,8 +1,8 @@
-# Oracle & Nombres
+# Betty Intuitions
 
 Site d'une page : un **thème numérologique offert** (chemin de vie, nombre d'expression, nombre intime, nombre de personnalité, année personnelle, planète dans l'Oracle Belline) et une **prestation de tirage de l'Oracle Belline** (formules, lame du jour selon la méthode du Mage Edmond, réservation).
 
-Le nom « Oracle & Nombres » est provisoire.
+Nom choisi : « Betty Intuitions » (à vérifier sur data.inpi.fr et disponibilité du nom de domaine).
 
 ## Voir le site
 
