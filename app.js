@@ -9,7 +9,7 @@
     email: 'contact@exemple.fr',
     formules: {
       croix: 'I · La Croix — 25\u00a0€',
-      septenaire: 'II · Le Septénaire — 60\u00a0€',
+      douze: 'II · Le Tirage des 12 lames — 60\u00a0€',
       annee: "III · La Roue de l'année — 95\u00a0€",
     },
   };
@@ -635,7 +635,7 @@
      Réservation
      ====================================================================== */
   const formResa = $('#form-resa');
-  const FORMATS = { croix: ['Par écrit'], septenaire: ['Visio', 'Téléphone'], annee: ['Visio'] };
+  const FORMATS = { croix: ['Par écrit'], douze: ['Visio', 'Téléphone'], annee: ['Visio'] };
   const radiosFormat = $$('input[name="format"]', formResa);
 
   function majFormats() {
