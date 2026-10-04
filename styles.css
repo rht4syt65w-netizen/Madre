@@ -632,7 +632,7 @@ h1, h2, h3, h4 { font-family: var(--display); font-weight: 400; margin: 0; line-
 
 /* ---------- formules ---------- */
 
-.offers { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(18px, 2.6vw, 30px); align-items: stretch; }
+.offers { display: grid; grid-template-columns: repeat(2, 1fr); max-width: 860px; margin-inline: auto; gap: clamp(18px, 2.6vw, 30px); align-items: stretch; }
 .offer {
   position: relative; display: flex; flex-direction: column;
   background: var(--panel);
