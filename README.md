@@ -19,8 +19,8 @@ puis ouvrir <http://localhost:8765>. Il peut aussi être publié tel quel avec G
 | Fichier | Contenu |
 | --- | --- |
 | `index.html` | la page |
-| `styles.css` | le style (palette ivoire, sépia, saumon, olive ; une couleur par planète) |
-| `app.js` | calculs numérologiques, dessin des cartes, lame du jour, réservation — **l'adresse e-mail de réservation se règle en haut du fichier** |
+| `styles.css` | le style : ciel de nuit bleu sombre, accents dorés, polices Bodoni Moda, EB Garamond et Jost ; une couleur de blason par planète |
+| `app.js` | calculs numérologiques, ciel étoilé animé et constellations, dessin des cartes, lame du jour, réservation — **l'adresse e-mail de réservation se règle en haut du fichier** |
 | `contenus.js` | tous les textes : interprétations des nombres, les sept familles planétaires, les 53 lames et leurs messages |
 | `CONVERSATION.md` | la discussion avec Claude qui a mené au site |
 | `recherche/oracle-belline.json` | la recherche vérifiée sur l'Oracle Belline : liste des cartes, identité visuelle, pratique des tirages, points juridiques, sources |

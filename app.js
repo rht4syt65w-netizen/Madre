@@ -23,7 +23,8 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const pad = n => String(n).padStart(2, '0');
-  const motionOK = () => !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const mqReduit = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const motionOK = () => !mqReduit.matches;
   const scrollBehavior = () => (motionOK() ? 'smooth' : 'auto');
   // chiffres lisibles dans les libellés en petites capitales (texte interne uniquement, jamais une saisie)
   const nb = s => String(s).replace(/\d+/g, '<span class="nb">$&</span>');
@@ -239,6 +240,177 @@
   $$('.famille .f-shield').forEach(el => {
     el.outerHTML = blason(el.closest('.famille').dataset.planete);
   });
+
+
+  /* ======================================================================
+     Le ciel : étoiles (canvas fixe) et constellations (décor des sections)
+     ====================================================================== */
+  const enMouvement = () => motionOK() && !document.documentElement.classList.contains('anim-pause');
+
+  // Formes simplifiées, coordonnées sur une grille de 0 à 100 ; « vives » = étoiles les plus brillantes
+  const CONSTELLATIONS = {
+    grandeOurse: { nom: 'Ursa Major', etoiles: [[0, 14], [3, 36], [24, 42], [28, 24], [45, 20], [62, 15], [80, 26]], traits: [[0, 1], [1, 2], [2, 3], [3, 0], [3, 4], [4, 5], [5, 6]], vives: [0, 5] },
+    orion: { nom: 'Orion', etoiles: [[12, 12], [52, 16], [32, 0], [25, 50], [33, 48], [41, 45], [18, 90], [57, 86]], traits: [[2, 0], [2, 1], [0, 3], [1, 5], [3, 4], [4, 5], [3, 6], [5, 7]], vives: [0, 7] },
+    cassiopee: { nom: 'Cassiopeia', etoiles: [[0, 22], [18, 42], [34, 24], [52, 40], [70, 12]], traits: [[0, 1], [1, 2], [2, 3], [3, 4]], vives: [2] },
+    lyre: { nom: 'Lyra', etoiles: [[22, 0], [14, 30], [30, 28], [18, 64], [34, 62]], traits: [[0, 1], [0, 2], [1, 2], [1, 3], [2, 4], [3, 4]], vives: [0] },
+    cygne: { nom: 'Cygnus', etoiles: [[40, 0], [40, 36], [40, 62], [40, 96], [6, 26], [74, 48]], traits: [[0, 1], [1, 2], [2, 3], [4, 1], [1, 5]], vives: [0, 3] },
+    petiteOurse: { nom: 'Ursa Minor', etoiles: [[0, 0], [16, 8], [28, 16], [38, 28], [34, 44], [54, 50], [58, 34]], traits: [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 3]], vives: [0] },
+    pleiades: { nom: 'Pleiades', etoiles: [[10, 10], [22, 4], [30, 14], [18, 20], [36, 24], [26, 30], [8, 28]], traits: [], vives: [1, 2] },
+    scorpion: { nom: 'Scorpius', etoiles: [[0, 0], [6, 14], [0, 28], [16, 18], [28, 24], [36, 36], [40, 50], [38, 64], [44, 76], [56, 82], [66, 76], [68, 64]], traits: [[0, 1], [1, 2], [1, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9], [9, 10], [10, 11]], vives: [4] },
+  };
+
+  function dessinerConstellation(el) {
+    const c = CONSTELLATIONS[el.dataset.c];
+    if (!c) return;
+    const xs = c.etoiles.map(e => e[0]);
+    const ys = c.etoiles.map(e => e[1]);
+    const marge = 8;
+    const x0 = Math.min(...xs) - marge;
+    const y0 = Math.min(...ys) - marge;
+    const l = Math.max(...xs) - Math.min(...xs) + 2 * marge;
+    const h = Math.max(...ys) - Math.min(...ys) + 2 * marge;
+    let svg = `<svg viewBox="${x0} ${y0} ${l} ${h}">`;
+    c.traits.forEach(([a, b]) => {
+      svg += `<line x1="${c.etoiles[a][0]}" y1="${c.etoiles[a][1]}" x2="${c.etoiles[b][0]}" y2="${c.etoiles[b][1]}" class="cs-trait"/>`;
+    });
+    c.etoiles.forEach(([x, y], i) => {
+      const vive = c.vives.includes(i);
+      if (vive) svg += `<circle cx="${x}" cy="${y}" r="4.5" class="cs-halo"/>`;
+      svg += `<circle cx="${x}" cy="${y}" r="${vive ? 1.7 : 1.1}" class="cs-etoile" style="animation-delay:${(-i * 0.7).toFixed(1)}s"/>`;
+    });
+    svg += '</svg>';
+    el.innerHTML = svg + `<span class="cs-nom">${c.nom}</span>`;
+  }
+  $$('.constellation').forEach(dessinerConstellation);
+
+  const ciel = (() => {
+    const cv = $('#ciel');
+    const ctx = cv && cv.getContext && cv.getContext('2d');
+    if (!ctx) return { figer() {} };
+
+    // générateur pseudo-aléatoire à graine : le même ciel à chaque visite
+    const alea = graine => () => {
+      graine = (graine + 0x6D2B79F5) | 0;
+      let t = Math.imul(graine ^ (graine >>> 15), 1 | graine);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+    const TEINTES = ['255,255,255', '214,226,255', '255,236,204'];
+    let W = 0;
+    let H = 0;
+    let etoiles = [];
+    let filante = null;
+    let prochaine = performance.now() + 5000;
+    let dernier = 0;
+    let decalageFige = 0;
+    let raf = 0;
+
+    function dimensionner() {
+      const w = cv.clientWidth;
+      const h = cv.clientHeight;
+      if (w === W && h === H) return; // barre d'adresse mobile, défilement : on garde le même ciel
+      W = w;
+      H = h;
+      const dpr = Math.min(window.devicePixelRatio || 1, 2);
+      cv.width = Math.round(W * dpr);
+      cv.height = Math.round(H * dpr);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      const r = alea(1845);
+      const n = Math.min(720, Math.round((W * H) / 1500));
+      etoiles = Array.from({ length: n }, () => {
+        const vive = r() < 0.035;
+        return {
+          x: r() * W, y: r() * H,
+          rayon: vive ? 1 + r() * 0.7 : 0.25 + r() * 0.6,
+          profondeur: 0.02 + r() * 0.1,
+          base: 0.35 + r() * 0.5, amplitude: 0.12 + r() * 0.35,
+          vitesse: 0.4 + r() * 1.5, phase: r() * 6.283,
+          teinte: TEINTES[Math.floor(r() * TEINTES.length)], vive,
+        };
+      });
+      dessiner(performance.now());
+    }
+
+    function dessiner(t) {
+      const anime = enMouvement();
+      if (anime) decalageFige = window.scrollY;
+      const decalage = motionOK() ? decalageFige : 0; // pause : position gardée ; mouvement réduit : aucun décalage
+      ctx.clearRect(0, 0, W, H);
+      for (const e of etoiles) {
+        let y = (e.y - decalage * e.profondeur) % H;
+        if (y < 0) y += H;
+        const a = anime ? Math.min(1, Math.max(0.05, e.base + e.amplitude * Math.sin((t / 1000) * e.vitesse + e.phase))) : e.base;
+        if (e.vive) { // halo doux
+          const halo = ctx.createRadialGradient(e.x, y, 0, e.x, y, e.rayon * 6);
+          halo.addColorStop(0, `rgba(${e.teinte},${(a * 0.35).toFixed(3)})`);
+          halo.addColorStop(1, `rgba(${e.teinte},0)`);
+          ctx.fillStyle = halo;
+          ctx.beginPath();
+          ctx.arc(e.x, y, e.rayon * 6, 0, 6.283);
+          ctx.fill();
+        }
+        ctx.fillStyle = `rgba(${e.teinte},${a.toFixed(3)})`;
+        ctx.beginPath();
+        ctx.arc(e.x, y, e.rayon, 0, 6.283);
+        ctx.fill();
+      }
+      if (!anime) return;
+      // une étoile filante de temps en temps
+      if (!filante && t > prochaine) {
+        const sens = Math.random() < 0.5 ? -1 : 1;
+        filante = { x: W * (0.2 + Math.random() * 0.6), y: H * Math.random() * 0.35, vx: sens * (6 + Math.random() * 4), vy: 2.4 + Math.random() * 2, vie: 0 };
+      }
+      if (filante) {
+        const f = filante;
+        const queue = 16;
+        const g = ctx.createLinearGradient(f.x, f.y, f.x - f.vx * queue, f.y - f.vy * queue);
+        g.addColorStop(0, `rgba(255,244,220,${(0.9 * (1 - f.vie / 50)).toFixed(3)})`);
+        g.addColorStop(1, 'rgba(255,244,220,0)');
+        ctx.strokeStyle = g;
+        ctx.lineWidth = 1.3;
+        ctx.beginPath();
+        ctx.moveTo(f.x, f.y);
+        ctx.lineTo(f.x - f.vx * queue, f.y - f.vy * queue);
+        ctx.stroke();
+        f.x += f.vx;
+        f.y += f.vy;
+        f.vie += 1;
+        if (f.vie > 50) {
+          filante = null;
+          prochaine = t + 8000 + Math.random() * 10000;
+        }
+      }
+    }
+
+    function boucle(t) {
+      raf = 0;
+      if (!enMouvement()) { // une image fixe, puis la boucle s'arrête
+        dessiner(t);
+        return;
+      }
+      if (t - dernier > 30) { // environ 30 images par seconde
+        dessiner(t);
+        dernier = t;
+      }
+      raf = requestAnimationFrame(boucle);
+    }
+    const relancer = () => { if (!raf) raf = requestAnimationFrame(boucle); };
+    if (mqReduit.addEventListener) mqReduit.addEventListener('change', relancer);
+    else mqReduit.addListener(relancer); // Safari < 14
+
+    let attente;
+    window.addEventListener('resize', () => {
+      clearTimeout(attente);
+      attente = setTimeout(dimensionner, 150);
+    });
+    // changement d'écran ou de zoom : on redessine à la bonne résolution
+    const surveillerDpr = () => window.matchMedia(`(resolution: ${window.devicePixelRatio}dppx)`)
+      .addEventListener('change', () => { W = 0; dimensionner(); surveillerDpr(); }, { once: true });
+    surveillerDpr();
+    dimensionner();
+    relancer();
+    return { figer: relancer };
+  })();
 
   /* ======================================================================
      Formulaire du thème
@@ -537,6 +709,7 @@
   animBtn.addEventListener('click', () => {
     const pause = document.documentElement.classList.toggle('anim-pause');
     animBtn.setAttribute('aria-pressed', String(pause));
+    ciel.figer();
   });
 
   // apparitions au défilement
