@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Astres &amp; Nombres — Numérologie offerte et tirage de l'Oracle Belline</title>
+  <meta name="description" content="Calculez gratuitement votre thème numérologique (chemin de vie, nombre d'expression, année personnelle), découvrez votre planète dans l'Oracle Belline et réservez un tirage personnalisé.">
+  <meta property="og:title" content="Astres & Nombres — Votre thème numérologique offert">
+  <meta property="og:description" content="Chemin de vie, nombre d'expression, année personnelle : découvrez ce que vos nombres disent de vous, puis votre planète dans l'Oracle Belline.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f3e9d6">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23f3e9d6' stroke='%232a1f18' stroke-width='1.5'/%3E%3Cpath d='M16 3.5L19 16L16 28.5L13 16Z M3.5 16L16 13L28.5 16L16 19Z' fill='%23a63f2b'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Spectral:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+  <script src="contenus.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#theme">Aller directement au calcul du thème</a>
+
+  <!-- motifs partagés : blasons de la Lune (moucheté) et de Mercure (bigarré), hachures de la roue -->
+  <svg class="defs" aria-hidden="true" focusable="false">
+    <defs>
+      <pattern id="motif-lune" width="5" height="5" patternUnits="userSpaceOnUse">
+        <rect width="5" height="5" fill="#ecc39b"/>
+        <circle cx="1.3" cy="1.4" r=".55" fill="#5f4e40"/>
+        <circle cx="3.8" cy="3.7" r=".45" fill="#5f4e40"/>
+      </pattern>
+      <pattern id="motif-mercure" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(28)">
+        <rect width="8" height="8" fill="#e8c14f"/>
+        <rect width="4" height="4" fill="#d9784a"/>
+        <rect x="4" y="4" width="4" height="4" fill="#6e8f5a"/>
+        <circle cx="6" cy="2" r="1.5" fill="#a8382c"/>
+        <circle cx="2" cy="6" r="1.5" fill="#6f8fb0"/>
+      </pattern>
+      <linearGradient id="degrade-mercure" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#e8c14f"/>
+        <stop offset=".3" stop-color="#d9784a"/>
+        <stop offset=".55" stop-color="#a8382c"/>
+        <stop offset=".78" stop-color="#6e8f5a"/>
+        <stop offset="1" stop-color="#6f8fb0"/>
+      </linearGradient>
+      <pattern id="hachures" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="7" class="w-hatch"/>
+      </pattern>
+    </defs>
+  </svg>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top" aria-label="Astres et Nombres, retour en haut">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="14.5"/><path d="M16 3.5L19 16L16 28.5L13 16Z M3.5 16L16 13L28.5 16L16 19Z"/></svg>
+        <span>Astres <em>&amp;</em> Nombres</span>
+      </a>
+      <nav class="nav" aria-label="Navigation principale">
+        <a href="#theme">Numérologie</a>
+        <a href="#tirage">Oracle Belline</a>
+        <a href="#faq">Questions</a>
+        <a href="#reserver" class="nav-cta">Réserver</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ Accueil ============ -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker"><span>Numérologie</span><span class="star" aria-hidden="true">✦</span><span>Oracle Belline</span></p>
+        <h1>Ce que vos <em>nombres</em> savent de vous</h1>
+        <p class="lede">Vos prénoms, votre nom, votre date de naissance : trois clés pour lire votre thème. Obtenez votre thème numérologique personnel — offert, sans inscription — et découvrez quelle famille de l'Oracle Belline vous correspond.</p>
+        <div class="hero-actions">
+          <a href="#theme" class="btn btn-primary">Calculer mon thème offert</a>
+          <a href="#tirage" class="btn-link">Découvrir le tirage Belline <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg class="wheel" viewBox="0 0 400 400"></svg>
+        <div class="fan">
+          <span class="tcard tcard-back" style="--r:-19deg"></span>
+          <span class="tcard tcard-back" style="--r:19deg"></span>
+          <span class="tcard tcard-face" data-carte="45" style="--r:0deg"></span>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee-wrap">
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group"><span>Chemin de vie</span><i>✦</i><span>Nombre d'expression</span><i>✦</i><span>Année personnelle</span><i>✦</i><span>Oracle Belline</span><i>✦</i><span><span class="nb">53</span> lames</span><i>✦</i><span>Sept planètes</span><i>✦</i><span>Méthode du Mage Edmond</span><i>✦</i></div>
+        <div class="marquee-group"><span>Chemin de vie</span><i>✦</i><span>Nombre d'expression</span><i>✦</i><span>Année personnelle</span><i>✦</i><span>Oracle Belline</span><i>✦</i><span><span class="nb">53</span> lames</span><i>✦</i><span>Sept planètes</span><i>✦</i><span>Méthode du Mage Edmond</span><i>✦</i></div>
+      </div>
+    </div>
+    <button type="button" class="anim-toggle" id="anim-toggle" aria-pressed="false">Pause</button>
+    </div>
+
+    <!-- ============ I. Thème numérologique offert ============ -->
+    <section id="theme" class="section">
+      <div class="section-head reveal">
+        <span class="section-num" aria-hidden="true">I</span>
+        <div>
+          <p class="kicker">Offert · sans inscription</p>
+          <h2>Votre thème numérologique</h2>
+          <p class="section-intro">La numérologie attribue à chaque lettre et à chaque chiffre une vibration. En les additionnant, on obtient les nombres qui dessinent votre personnalité, vos élans profonds et le climat de votre année — et votre planète dans l'Oracle Belline.</p>
+        </div>
+      </div>
+
+      <form id="form-theme" class="paper-form reveal" novalidate>
+        <div class="field field-wide">
+          <label for="prenoms">Prénom(s)</label>
+          <input id="prenoms" name="prenoms" type="text" autocomplete="given-name" placeholder="Marie Claire Jeanne">
+          <p class="hint">Tous vos prénoms de naissance, dans l'ordre de l'état civil.</p>
+        </div>
+        <div class="field">
+          <label for="nom">Nom de naissance</label>
+          <input id="nom" name="nom" type="text" autocomplete="family-name" placeholder="Dupont">
+          <p class="hint">Le nom reçu à la naissance, même si vous en portez un autre aujourd'hui.</p>
+        </div>
+        <div class="field">
+          <label for="naissance">Date de naissance</label>
+          <input id="naissance" name="naissance" type="date" min="1900-01-01">
+        </div>
+        <p id="theme-erreur" class="form-error field-wide" role="alert" hidden></p>
+        <div class="form-foot field-wide">
+          <button type="submit" class="btn btn-primary" disabled>Révéler mes nombres</button>
+          <p class="privacy">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10" rx="1.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>
+            Le calcul se fait sur votre appareil : rien n'est envoyé, rien n'est enregistré.
+          </p>
+        </div>
+      </form>
+
+      <div id="resultats" class="resultats" hidden></div>
+    </section>
+
+    <!-- ============ II. L'Oracle Belline ============ -->
+    <section id="tirage" class="section">
+      <div class="section-head reveal">
+        <span class="section-num" aria-hidden="true">II</span>
+        <div>
+          <p class="kicker">Prestation</p>
+          <h2>Le tirage de l'Oracle Belline</h2>
+          <p class="section-intro">Pour aller au-delà des nombres : un tirage préparé pour vous, autour de la question qui vous occupe, avec un jeu de 53 lames dont les dessins remontent au XIXe siècle.</p>
+        </div>
+      </div>
+
+      <div class="oracle-intro reveal">
+        <p class="lead">Un oracle qui <em>nomme les choses</em> : Argent, Union, Départ, Retard… Là où le tarot procède par grands symboles, le Belline répond de façon concrète.</p>
+        <div>
+          <p>Ses dessins sont attribués au Mage Edmond, voyant célèbre du Paris du Second Empire. Le voyant Marcel Belline les a fait éditer en 1960, et le jeu est devenu l'un des oracles les plus consultés en France. Quarante-neuf de ses lames se répartissent, sept par sept, entre les sept planètes de l'astrologie traditionnelle, qui donnent à chacune sa couleur et sa tonalité.</p>
+          <ul class="oracle-facts">
+            <li><b>53</b><span>lames dans le jeu</span></li>
+            <li><b>7</b><span>familles planétaires</span></li>
+            <li><b>3</b><span>cartes maîtresses</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <ul class="familles reveal" aria-label="Les sept familles planétaires">
+        <li class="famille" data-planete="soleil"><span class="f-shield"></span><h3>Le Soleil</h3><p class="f-cartes">Lames <span class="nb">4</span> à <span class="nb">10</span></p><p class="f-mots">Réussite, rayonnement, reconnaissance</p></li>
+        <li class="famille" data-planete="lune"><span class="f-shield"></span><h3>La Lune</h3><p class="f-cartes">Lames <span class="nb">11</span> à <span class="nb">17</span></p><p class="f-mots">Émotions, foyer, voyages</p></li>
+        <li class="famille" data-planete="mercure"><span class="f-shield"></span><h3>Mercure</h3><p class="f-cartes">Lames <span class="nb">18</span> à <span class="nb">24</span></p><p class="f-mots">Échanges, argent, nouvelles</p></li>
+        <li class="famille" data-planete="venus"><span class="f-shield"></span><h3>Vénus</h3><p class="f-cartes">Lames <span class="nb">25</span> à <span class="nb">31</span></p><p class="f-mots">Amour, union, plaisirs</p></li>
+        <li class="famille" data-planete="mars"><span class="f-shield"></span><h3>Mars</h3><p class="f-cartes">Lames <span class="nb">32</span> à <span class="nb">38</span></p><p class="f-mots">Action, conflits, énergie</p></li>
+        <li class="famille" data-planete="jupiter"><span class="f-shield"></span><h3>Jupiter</h3><p class="f-cartes">Lames <span class="nb">39</span> à <span class="nb">45</span></p><p class="f-mots">Protection, chance, sagesse</p></li>
+        <li class="famille" data-planete="saturne"><span class="f-shield"></span><h3>Saturne</h3><p class="f-cartes">Lames <span class="nb">46</span> à <span class="nb">52</span></p><p class="f-mots">Temps, épreuves, maturité</p></li>
+        <li class="familles-note">S'y ajoutent trois cartes maîtresses — la Destinée, l'Étoile de l'homme, l'Étoile de la femme — et la Carte bleue, sans numéro ni dessin.</li>
+      </ul>
+
+      <div class="about reveal">
+        <div class="portrait"><span class="ph">[Photo]</span></div>
+        <div class="about-text">
+          <p class="about-quote">« Le Belline ne parle pas par énigmes : il nomme ce qui se joue. Mon rôle est de vous aider à en faire quelque chose. »</p>
+          <p>Je m'appelle <span class="ph">[Prénom]</span> et je consulte l'Oracle Belline depuis <span class="ph">[X] ans</span>. Mes tirages ne prédisent pas un avenir figé : ils éclairent une situation, montrent les forces en présence et vous aident à choisir en conscience.</p>
+          <p>Chaque consultation est préparée pour vous, dans l'écoute, la bienveillance et la plus stricte confidentialité.</p>
+          <p class="signature">— <span class="ph">[Prénom]</span></p>
+        </div>
+      </div>
+
+      <div class="offers">
+        <article class="offer reveal">
+          <p class="offer-num">I</p>
+          <h3>La Croix</h3>
+          <p class="offer-tag">Une question précise, une réponse argumentée.</p>
+          <p class="offer-price">25<small>&nbsp;€</small></p>
+          <p class="offer-meta">Par écrit · sous <span class="nb">48</span> h après paiement</p>
+          <ul>
+            <li>Tirage en croix de 5 lames : le pour, le contre, le conseil, la réponse et la synthèse</li>
+            <li>Réponse écrite et détaillée</li>
+            <li>Idéal pour une décision à prendre</li>
+          </ul>
+          <button type="button" class="btn btn-outline" data-formule="croix">Réserver ce tirage</button>
+        </article>
+
+        <article class="offer offer-featured reveal">
+          <p class="offer-badge">Mon conseil</p>
+          <p class="offer-num">II</p>
+          <h3>Le Septénaire</h3>
+          <p class="offer-tag">Toute votre situation, planète par planète.</p>
+          <p class="offer-price">60<small>&nbsp;€</small></p>
+          <p class="offer-meta">Visio ou téléphone · <span class="nb">45</span> min</p>
+          <ul>
+            <li>Grand tableau de 21 lames, une ligne par planète</li>
+            <li>Amour, travail, argent, foyer : les grands domaines de votre vie</li>
+            <li>Vos questions en direct pendant la séance</li>
+            <li>Compte rendu écrit envoyé après la séance</li>
+          </ul>
+          <button type="button" class="btn btn-outline" data-formule="septenaire">Réserver ce tirage</button>
+        </article>
+
+        <article class="offer reveal">
+          <p class="offer-num">III</p>
+          <h3>La Roue de l'année</h3>
+          <p class="offer-tag">Les douze mois à venir, maison par maison.</p>
+          <p class="offer-price">95<small>&nbsp;€</small></p>
+          <p class="offer-meta">Visio · <span class="nb">1</span> h <span class="nb">15</span></p>
+          <ul>
+            <li>Roue astrologique des 12 maisons</li>
+            <li>Votre thème numérologique commenté</li>
+            <li>Votre année personnelle mise en perspective</li>
+            <li>Compte rendu écrit complet</li>
+          </ul>
+          <button type="button" class="btn btn-outline" data-formule="annee">Réserver ce tirage</button>
+        </article>
+      </div>
+
+      <div class="draw reveal" id="carte">
+        <div class="draw-text">
+          <p class="kicker">La méthode du Mage Edmond</p>
+          <h3>Tirez votre lame du jour</h3>
+          <p class="draw-intro">Selon la méthode attribuée au Mage Edmond, on choisit un chiffre de 1 à 9, puis l'on retourne la carte qui tombe sur ce chiffre. Pensez un instant à ce qui vous occupe, et choisissez le vôtre. Une lame tirée seule n'est pas une prédiction : prenez-la comme une piste de réflexion pour la journée.</p>
+          <p class="draw-hint" hidden></p>
+          <p id="draw-annonce" class="sr-only" aria-live="polite"></p>
+        </div>
+        <div class="draw-stage">
+          <div class="draw-row" id="draw-row" role="group" aria-label="Choisissez un chiffre de 1 à 9"></div>
+          <div class="draw-reveal" id="draw-reveal" hidden></div>
+        </div>
+        <div class="draw-message" hidden>
+          <p class="draw-name"></p>
+          <p class="draw-msg"></p>
+          <div class="draw-actions">
+            <a class="btn btn-primary" href="#reserver">Réserver un tirage complet</a>
+            <button type="button" class="btn-link" id="redraw">Tirer à nouveau</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="steps-wrap reveal">
+        <h3 class="steps-title">Comment ça se passe</h3>
+        <ol class="steps">
+          <li><span class="step-num">I</span><h4>Vous réservez</h4><p>Choisissez votre formule et décrivez votre question en quelques lignes.</p></li>
+          <li><span class="step-num">II</span><h4>Je vous réponds</h4><p>Sous 24 h, je confirme le créneau (ou, pour La Croix, votre demande) et vous envoie un lien de paiement sécurisé.</p></li>
+          <li><span class="step-num">III</span><h4>Le tirage</h4><p>Je bats les cartes, je tire les lames, puis nous les lisons ensemble en visio ou par téléphone — ou je vous envoie ma lecture par écrit.</p></li>
+          <li><span class="step-num">IV</span><h4>Vous gardez une trace</h4><p>Un compte rendu écrit, pour y revenir à tête reposée.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ III. Réserver ============ -->
+    <section id="reserver" class="section">
+      <div class="section-head reveal">
+        <span class="section-num" aria-hidden="true">III</span>
+        <div>
+          <p class="kicker">Rendez-vous</p>
+          <h2>Réserver un tirage</h2>
+          <p class="section-intro">Décrivez votre demande : je vous réponds sous 24 h pour fixer le créneau. Aucun paiement n'est demandé à cette étape.</p>
+        </div>
+      </div>
+
+      <form id="form-resa" class="paper-form reveal">
+        <div class="field">
+          <label for="resa-prenom">Prénom</label>
+          <input id="resa-prenom" name="prenom" type="text" autocomplete="given-name" required>
+        </div>
+        <div class="field">
+          <label for="resa-email">E-mail</label>
+          <input id="resa-email" name="email" type="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="resa-formule">Formule</label>
+          <select id="resa-formule" name="formule" required>
+            <option value="" disabled selected>Choisir une formule</option>
+            <option value="croix">I · La Croix — 25 €</option>
+            <option value="septenaire">II · Le Septénaire — 60 €</option>
+            <option value="annee">III · La Roue de l'année — 95 €</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="resa-tel">Téléphone <span class="optional">(facultatif, sauf pour une séance par téléphone)</span></label>
+          <input id="resa-tel" name="telephone" type="tel" autocomplete="tel">
+        </div>
+        <fieldset class="field field-wide">
+          <legend>Format souhaité</legend>
+          <div class="pills">
+            <label class="pill"><input type="radio" name="format" value="Visio" checked><span>Visio</span></label>
+            <label class="pill"><input type="radio" name="format" value="Téléphone"><span>Téléphone</span></label>
+            <label class="pill"><input type="radio" name="format" value="Par écrit"><span>Par écrit</span></label>
+          </div>
+          <p class="hint">La Croix se fait par écrit ; le Septénaire, en visio ou par téléphone ; la Roue de l'année, en visio.</p>
+        </fieldset>
+        <div class="field field-wide">
+          <label for="resa-question">Votre question ou votre situation</label>
+          <textarea id="resa-question" name="question" rows="4" maxlength="800" required placeholder="Quelques lignes suffisent : ce qui vous préoccupe, ce que vous aimeriez éclaircir…"></textarea>
+        </div>
+        <div class="field field-wide">
+          <label for="resa-dispos">Vos disponibilités <span class="optional">(facultatif)</span></label>
+          <input id="resa-dispos" name="dispos" type="text" placeholder="Ex. : en semaine après 18 h, ou le samedi matin">
+        </div>
+        <label class="check field-wide">
+          <input type="checkbox" name="majeur" required>
+          <span>J'ai au moins 18 ans et je comprends qu'un tirage de cartes est un outil de réflexion personnelle, qui ne remplace pas un avis médical, juridique ou financier.</span>
+        </label>
+        <div class="form-foot field-wide">
+          <button type="submit" class="btn btn-primary" disabled>Envoyer ma demande</button>
+          <p class="privacy">Votre messagerie s'ouvrira avec la demande préremplie.</p>
+        </div>
+        <p id="resa-annonce" class="sr-only" role="status"></p>
+        <p class="resa-ok field-wide" hidden>
+          Merci ! Votre messagerie devrait s'ouvrir avec votre demande. Si rien ne se passe, écrivez directement à <a data-email href="#"></a>.
+        </p>
+      </form>
+    </section>
+
+    <!-- ============ IV. Questions ============ -->
+    <section id="faq" class="section">
+      <div class="section-head reveal">
+        <span class="section-num" aria-hidden="true">IV</span>
+        <div>
+          <p class="kicker">Bon à savoir</p>
+          <h2>Questions fréquentes</h2>
+        </div>
+      </div>
+      <div class="faq-list reveal">
+        <details class="faq">
+          <summary>Le thème numérologique est-il vraiment gratuit ?</summary>
+          <p>Oui, entièrement. Pas d'inscription, pas d'adresse e-mail demandée : le calcul se fait dans votre navigateur et rien n'est enregistré. Vous pouvez l'imprimer ou l'enregistrer en PDF pour le garder.</p>
+        </details>
+        <details class="faq">
+          <summary>Qu'est-ce que l'Oracle Belline, et en quoi diffère-t-il du tarot ?</summary>
+          <p>C'est un jeu de 53 lames : 49 réparties en sept familles planétaires de sept cartes, plus trois cartes maîtresses et la Carte bleue. Là où le tarot passe par de grands symboles à interpréter, le Belline nomme directement les situations — Argent, Union, Départ, Retard — ce qui donne des réponses concrètes, faciles à relier à votre vie.</p>
+        </details>
+        <details class="faq">
+          <summary>Comment se déroule un tirage ?</summary>
+          <p>Après votre réservation, je vous propose un créneau. Le jour venu, nous prenons quelques minutes pour préciser votre question, puis je tire les lames et nous les lisons ensemble : chacune pour elle-même, puis avec ses voisines, car dans le Belline c'est l'association des cartes qui donne le sens. Pour « La Croix », la réponse vous parvient par écrit.</p>
+        </details>
+        <details class="faq">
+          <summary>Le Belline peut-il donner une date ?</summary>
+          <p>Il peut indiquer une période : chaque planète est associée à un jour de la semaine, et plusieurs d'entre elles à une saison. Ce sont des tendances, jamais des certitudes.</p>
+        </details>
+        <details class="faq">
+          <summary>Une carte « négative » est-elle grave ?</summary>
+          <p>Non. Dans un tirage complet, une lame comme Retard ou Infortune ne se lit jamais seule : ses voisines la nuancent, et elle signale surtout un point de vigilance. Mon rôle est de vous aider à en tirer quelque chose d'utile.</p>
+        </details>
+        <details class="faq">
+          <summary>Comment se passe le paiement ?</summary>
+          <p>Une fois le créneau confirmé (ou, pour La Croix, votre demande acceptée), je vous envoie un lien de paiement sécurisé. Le tirage a lieu après réception du règlement. Si vous devez annuler un rendez-vous, prévenez-moi au moins 24 h à l'avance. Les conditions d'annulation et le droit de rétractation sont détaillés dans les conditions de vente.</p>
+        </details>
+        <details class="faq">
+          <summary>Puis-je poser n'importe quelle question ?</summary>
+          <p>Presque : amour, travail, argent, choix de vie, projets, relations… Je ne réponds pas aux questions de santé, de décès, de procédures judiciaires ou de jeux d'argent, ni aux questions qui concernent des mineurs.</p>
+        </details>
+        <details class="faq">
+          <summary>Mes informations restent-elles confidentielles ?</summary>
+          <p>Toujours. Ce que vous me confiez reste entre nous et n'est jamais partagé ni utilisé à d'autres fins que votre consultation.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-brand">Astres <em>&amp;</em> Nombres</p>
+      <div class="footer-cols">
+        <div>
+          <h4>Contact</h4>
+          <p><a data-email href="#"></a></p>
+          <p><span class="ph">[Ville]</span> · consultations à distance partout en France</p>
+        </div>
+        <div>
+          <h4>Le site</h4>
+          <p><a href="#theme">Thème numérologique offert</a><br><a href="#tirage">Tirage de l'Oracle Belline</a><br><a href="#reserver">Réserver</a></p>
+        </div>
+        <div>
+          <h4>Informations</h4>
+          <p><a href="#">Mentions légales</a><br><a href="#">Politique de confidentialité</a><br><a href="#">Conditions de vente</a></p>
+        </div>
+      </div>
+      <p class="disclaimer">La numérologie et la cartomancie sont des outils de réflexion personnelle. Elles ne remplacent en aucun cas l'avis d'un médecin, d'un psychologue, d'un avocat ou d'un conseiller financier. Consultations réservées aux personnes majeures.</p>
+      <p class="disclaimer">« Oracle Belline » est une marque appartenant à son titulaire. Ce site est indépendant : il n'est affilié ni à l'éditeur du jeu ni au titulaire de la marque. Les cartes représentées ici sont des créations originales, inspirées de l'esprit du jeu.</p>
+      <p class="copyright">© <span id="annee" class="nb">2026</span> Astres &amp; Nombres</p>
+    </div>
+  </footer>
+</body>
+</html>

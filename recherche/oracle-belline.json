@@ -1,0 +1,1310 @@
+{
+  "cartes": {
+    "liste": {
+      "total_cartes": 53,
+      "structure": "L'Oracle Belline compte 53 cartes. Les 52 premières sont numérotées de 1 à 52, la dernière est une carte bleue vierge. (1) 3 cartes maîtresses, numérotées 1 à 3, sans planète et signées par le Mage Edmond : la destinée, l'étoile de l'homme, l'étoile de la femme. (2) 49 cartes planétaires, 7 par planète, numérotées dans cet ordre : Soleil 4 à 10, Lune 11 à 17, Mercure 18 à 24, Vénus 25 à 31, Mars 32 à 38, Jupiter 39 à 45, Saturne 46 à 52. (3) 1 carte bleue entièrement vierge, sans numéro ni planète. Sur chaque carte, d'après des scans du jeu : le numéro est en haut à gauche, et le symbole de la planète figure sur un petit écusson en haut à droite. Cet écusson manque sur les cartes 1 à 3 et sur la carte bleue. Sa couleur change selon la planète : jaune pour le Soleil, rosé pour la Lune, multicolore pour Mercure, vert pour Vénus, rouge pour Mars, bleu pour Jupiter, noir pour Saturne. Le titre est imprimé à la verticale le long du bord droit, en minuscules gothiques. Les noms ci-dessous reprennent ce qui est imprimé sur les cartes, avec la même orthographe.",
+      "cartes": [
+        {
+          "nom": "la destinée",
+          "numero": "1",
+          "planete": "aucune (carte maîtresse)",
+          "polarite": "nuancée",
+          "mots_cles": "décision capitale, tournant de vie, choix sans retour, renforce la carte qui suit"
+        },
+        {
+          "nom": "l'étoile de l'homme",
+          "numero": "2",
+          "planete": "aucune (carte maîtresse)",
+          "polarite": "nuancée",
+          "mots_cles": "consultant, homme important, influence masculine, présence forte"
+        },
+        {
+          "nom": "l'étoile de la femme",
+          "numero": "3",
+          "planete": "aucune (carte maîtresse)",
+          "polarite": "nuancée",
+          "mots_cles": "consultante, femme importante, influence féminine, intuition"
+        },
+        {
+          "nom": "la nativité",
+          "numero": "4",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "naissance, nouveau départ, renouveau, projet qui démarre"
+        },
+        {
+          "nom": "réussite",
+          "numero": "5",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "succès, aboutissement, efforts récompensés, projets réalisés"
+        },
+        {
+          "nom": "élévation",
+          "numero": "6",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "progression, promotion, ascension, construction solide"
+        },
+        {
+          "nom": "honneurs",
+          "numero": "7",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "reconnaissance, distinction, mérite salué, prestige"
+        },
+        {
+          "nom": "pensée amitié",
+          "numero": "8",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "amitié fidèle, affection, soutien, pensée bienveillante"
+        },
+        {
+          "nom": "campagne santé",
+          "numero": "9",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "repos, bonne santé, calme, ressourcement"
+        },
+        {
+          "nom": "présents",
+          "numero": "10",
+          "planete": "Soleil",
+          "polarite": "favorable",
+          "mots_cles": "cadeaux, opportunités, générosité, bonnes surprises"
+        },
+        {
+          "nom": "trahison",
+          "numero": "11",
+          "planete": "Lune",
+          "polarite": "défavorable",
+          "mots_cles": "tromperie, infidélité, médisance, déloyauté"
+        },
+        {
+          "nom": "départ",
+          "numero": "12",
+          "planete": "Lune",
+          "polarite": "nuancée",
+          "mots_cles": "voyage, éloignement, séparation, changement de lieu"
+        },
+        {
+          "nom": "inconstance",
+          "numero": "13",
+          "planete": "Lune",
+          "polarite": "défavorable",
+          "mots_cles": "hésitation, instabilité, indécision, versatilité"
+        },
+        {
+          "nom": "découverte",
+          "numero": "14",
+          "planete": "Lune",
+          "polarite": "favorable",
+          "mots_cles": "révélation, solution trouvée, vérité au jour, recherche"
+        },
+        {
+          "nom": "l'eau",
+          "numero": "15",
+          "planete": "Lune",
+          "polarite": "nuancée",
+          "mots_cles": "émotions, sensibilité, voyage lointain, fluctuations"
+        },
+        {
+          "nom": "les pénates",
+          "numero": "16",
+          "planete": "Lune",
+          "polarite": "favorable",
+          "mots_cles": "foyer, maison, sécurité, patrimoine familial"
+        },
+        {
+          "nom": "maladie",
+          "numero": "17",
+          "planete": "Lune",
+          "polarite": "défavorable",
+          "mots_cles": "souci de santé, fatigue, malaise, contrariété"
+        },
+        {
+          "nom": "changement",
+          "numero": "18",
+          "planete": "Mercure",
+          "polarite": "nuancée",
+          "mots_cles": "évolution, transformation, mutation, mouvement rapide"
+        },
+        {
+          "nom": "argent",
+          "numero": "19",
+          "planete": "Mercure",
+          "polarite": "favorable",
+          "mots_cles": "gains, rentrées financières, aisance, affaires"
+        },
+        {
+          "nom": "l'intelligence",
+          "numero": "20",
+          "planete": "Mercure",
+          "polarite": "favorable",
+          "mots_cles": "intellect, études, habileté, écrits, compréhension"
+        },
+        {
+          "nom": "vol. perte",
+          "numero": "21",
+          "planete": "Mercure",
+          "polarite": "défavorable",
+          "mots_cles": "perte, vol, escroquerie, vigilance nécessaire"
+        },
+        {
+          "nom": "entreprises",
+          "numero": "22",
+          "planete": "Mercure",
+          "polarite": "favorable",
+          "mots_cles": "projets, initiatives, démarches, travail actif"
+        },
+        {
+          "nom": "trafic",
+          "numero": "23",
+          "planete": "Mercure",
+          "polarite": "favorable (nuancée selon certaines sources)",
+          "mots_cles": "commerce, échanges, négociations, déplacements"
+        },
+        {
+          "nom": "nouvelle",
+          "numero": "24",
+          "planete": "Mercure",
+          "polarite": "favorable",
+          "mots_cles": "message, information, courrier, visite"
+        },
+        {
+          "nom": "plaisirs",
+          "numero": "25",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "joie, loisirs, fêtes, arts, légèreté"
+        },
+        {
+          "nom": "la paix",
+          "numero": "26",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "sérénité, réconciliation, apaisement, fin de conflit"
+        },
+        {
+          "nom": "union",
+          "numero": "27",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "mariage, engagement, association, couple"
+        },
+        {
+          "nom": "famille",
+          "numero": "28",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "liens familiaux, enfants, protection, fécondité"
+        },
+        {
+          "nom": "amor",
+          "numero": "29",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "amour partagé, sentiments sincères, tendresse, rencontre"
+        },
+        {
+          "nom": "la table",
+          "numero": "30",
+          "planete": "Vénus",
+          "polarite": "favorable",
+          "mots_cles": "repas, réunions, convivialité, invitations"
+        },
+        {
+          "nom": "passions",
+          "numero": "31",
+          "planete": "Vénus",
+          "polarite": "nuancée",
+          "mots_cles": "passion intense, coup de foudre, excès, jalousie possible"
+        },
+        {
+          "nom": "méchanceté",
+          "numero": "32",
+          "planete": "Mars",
+          "polarite": "défavorable",
+          "mots_cles": "malveillance, jalousie, hostilité, coup bas"
+        },
+        {
+          "nom": "procès",
+          "numero": "33",
+          "planete": "Mars",
+          "polarite": "défavorable",
+          "mots_cles": "litige, conflit, justice, rupture"
+        },
+        {
+          "nom": "déspotisme",
+          "numero": "34",
+          "planete": "Mars",
+          "polarite": "défavorable",
+          "mots_cles": "contrainte, domination, oppression, perte de liberté"
+        },
+        {
+          "nom": "ennemis",
+          "numero": "35",
+          "planete": "Mars",
+          "polarite": "défavorable",
+          "mots_cles": "adversaires, agression, rivalité, opposition ouverte"
+        },
+        {
+          "nom": "pourparlers",
+          "numero": "36",
+          "planete": "Mars",
+          "polarite": "nuancée",
+          "mots_cles": "discussions, négociation, débat, explications"
+        },
+        {
+          "nom": "feu",
+          "numero": "37",
+          "planete": "Mars",
+          "polarite": "nuancée",
+          "mots_cles": "énergie, ardeur, colère, urgence, conflit"
+        },
+        {
+          "nom": "accident",
+          "numero": "38",
+          "planete": "Mars",
+          "polarite": "défavorable",
+          "mots_cles": "choc, imprévu brutal, bouleversement, rupture"
+        },
+        {
+          "nom": "appui",
+          "numero": "39",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "soutien, protection, allié influent, recommandation"
+        },
+        {
+          "nom": "beauté",
+          "numero": "40",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "épanouissement, harmonie, réalisation, rayonnement"
+        },
+        {
+          "nom": "héritage",
+          "numero": "41",
+          "planete": "Jupiter",
+          "polarite": "favorable (nuancée selon certaines sources)",
+          "mots_cles": "héritage, legs, acquis du passé, transmission"
+        },
+        {
+          "nom": "sagesse",
+          "numero": "42",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "sagesse, réflexion, mesure, maturité, bon conseil"
+        },
+        {
+          "nom": "la renommée",
+          "numero": "43",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "notoriété, réputation, succès public, reconnaissance"
+        },
+        {
+          "nom": "le hazard",
+          "numero": "44",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "chance, imprévu heureux, coup du sort, rencontre fortuite"
+        },
+        {
+          "nom": "bonheur",
+          "numero": "45",
+          "planete": "Jupiter",
+          "polarite": "favorable",
+          "mots_cles": "bonheur, joie, satisfaction, harmonie familiale"
+        },
+        {
+          "nom": "infortune",
+          "numero": "46",
+          "planete": "Saturne",
+          "polarite": "défavorable",
+          "mots_cles": "malchance, épreuve, revers, échec"
+        },
+        {
+          "nom": "stérilité",
+          "numero": "47",
+          "planete": "Saturne",
+          "polarite": "défavorable",
+          "mots_cles": "stagnation, impasse, vide, illusion"
+        },
+        {
+          "nom": "fatalité",
+          "numero": "48",
+          "planete": "Saturne",
+          "polarite": "défavorable (nuancée selon certaines sources)",
+          "mots_cles": "fin inéluctable, rupture, destin, cycle qui se clôt"
+        },
+        {
+          "nom": "la grâce",
+          "numero": "49",
+          "planete": "Saturne",
+          "polarite": "favorable",
+          "mots_cles": "protection divine, secours inattendu, spiritualité, apaisement"
+        },
+        {
+          "nom": "ruine",
+          "numero": "50",
+          "planete": "Saturne",
+          "polarite": "défavorable",
+          "mots_cles": "effondrement, perte financière, échec, déchéance"
+        },
+        {
+          "nom": "retard",
+          "numero": "51",
+          "planete": "Saturne",
+          "polarite": "défavorable",
+          "mots_cles": "lenteur, attente, blocage, patience imposée"
+        },
+        {
+          "nom": "cloître",
+          "numero": "52",
+          "planete": "Saturne",
+          "polarite": "défavorable / nuancée",
+          "mots_cles": "isolement, retraite, solitude, introspection, renoncement"
+        },
+        {
+          "nom": "carte bleue (aucun titre imprimé)",
+          "numero": "",
+          "planete": "aucune (hors série)",
+          "polarite": "favorable",
+          "mots_cles": "protection, chance du moment, apaisement, joker ou remplacement"
+        }
+      ],
+      "cartes_speciales": "Carte bleue : la 53e carte, bleu ciel, sans dessin, avec la même bordure que les autres. Elle ne porte ni titre, ni numéro, ni symbole de planète. Les sites l'appellent « carte bleue », « 53e carte » ou « 00 ». Françoise Miquel la nomme « La Piscine », mais elle précise que ce nom vient d'elle. On la présente souvent comme une ancienne carte de remplacement, utilisable comme joker ou pour remplacer une carte perdue. Beaucoup de praticiens lui donnent un sens très positif : protection, chance à saisir tout de suite. Selon eux, elle atténue aussi les cartes négatives voisines. Les cartes 1 à 3 sont les trois cartes maîtresses, sans planète. La 1, la destinée, montre une clé ; certaines sources l'appellent donc « La Clé ». Les 2 et 3, l'étoile de l'homme et l'étoile de la femme, représentent le consultant ou la consultante, ou un homme ou une femme importants pour la personne. Certains auteurs regroupent ces 3 cartes et la carte bleue sous le nom de « 4 cartes maîtresses ».",
+      "incertitudes": [
+        "Les noms imprimés ont été lus sur des scans de toutes les cartes, publiés sur oracle-de-belline.com. L'édition n'est pas identifiée, c'est probablement l'édition Grimaud actuelle. Les éditions anciennes (La Ducale 1960, Grimaud 1961 ou 1986) pourraient différer un peu, par exemple pour les articles ou les accents.",
+        "Sur les cartes, les titres sont en minuscules, et seules quelques cartes ont un article (la destinée, la nativité, l'eau, les pénates, l'intelligence, la paix, la table, la renommée, le hazard, la grâce). Les livres et les sites écrivent souvent autrement : « La Réussite », « Honneur » (guide visuel de Miquel) au lieu de « honneurs », « Pensée/Amitié » ou « Pensées-Amitiés », « Vol/Perte » ou « Vol-Perte » au lieu de « vol. perte », « Entreprise », « Nouvelles », « Amour » au lieu de « amor », « Despotisme » sans accent au lieu de « déspotisme », « Pourparler », « Appuis », « Le Hasard » au lieu de « le hazard ».",
+        "Carte 44 : oraclia.fr et un résumé de recherche la placent sous Saturne. Le symbole imprimé (écusson bleu de Jupiter) et la grande majorité des sources (Miquel, oracle-de-belline.com, Kinthia, Kartomanta) la placent sous Jupiter, et c'est ce que je retiens.",
+        "La carte bleue est parfois numérotée 0, 00 ou 53, mais rien n'est imprimé dessus. On ne sait pas bien d'où elle vient : carte de remplacement de l'éditeur ou vraie carte du jeu. Je n'ai pas vérifié qu'elle manque parmi les dessins du Mage Edmond conservés au Mucem. L'indication « 52 cartes authentiques au Mucem » vient d'un simple résumé de recherche.",
+        "Certains auteurs, par exemple le site cheminsenchantes, donnent à chaque carte une deuxième planète (Découverte = Lune-Mars, Pénates = Lune-Jupiter, Cloître = Saturne-Jupiter). Elle n'est pas imprimée sur les cartes et elle change selon les auteurs, donc je ne l'ai pas reprise.",
+        "La polarité et les mots-clés font la synthèse de plusieurs sources, avec des mots à moi. Les auteurs ne classent pas tous de la même façon départ, l'eau, changement, trafic, passions, pourparlers, feu, héritage, fatalité, cloître et la destinée : ces cartes sont tantôt favorables, tantôt neutres, tantôt défavorables.",
+        "L'attribution des dessins au Mage Edmond (vers 1845-1865) et l'histoire de leur découverte par Marcel Forget, dit Belline, reposent sur le récit de Belline lui-même. Wikipédia la présente au conditionnel."
+      ],
+      "sources": [
+        "https://www.oracle-de-belline.com/ (liste numérotée, pages par planète et scans des 53 cartes, sur lesquels j'ai lu les titres, numéros et symboles de planète)",
+        "https://www.oracle-de-belline.com/premieres-cartes/",
+        "Françoise Miquel, L'Oracle de Belline, le guide complet d'initiation (Animae / Leduc, 2024), extrait : https://www.editionsleduc.com/extract/12381",
+        "Françoise Miquel, Je m'initie à l'oracle de Belline, guide visuel (Leduc), extrait avec le sommaire numéroté 0 à 52 : https://editionsleduc.com/extract/10436",
+        "https://histoires-de-cartes.blogspot.com/p/index-bellinites.html (index des cartes 00 à 52, blog de 2006)",
+        "https://www.kartomanta.com/oracle-belline",
+        "https://www.kartomanta.com/bleue-la-53eme-carte-de-loracle-belline-quelle-signification-dans-un-tirage",
+        "https://www.kinthia.com/blog/oracle-de-belline/",
+        "https://mediumnitemagnetisme.org/les-oracles/oracle-de-belline/",
+        "http://oracledebelline.fr/signification-cartes.php",
+        "https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-le-soleil/",
+        "https://myst-spiritisme.fr/divination/l-oracle-belline/cartes-sous-influence-de-venus/",
+        "https://www.tarot-ana.fr/tarot-gratuit/oracle-de-belline/cartes-de-loracle-de-belline/le-hazard-carte-oracle-de-belline/",
+        "https://www.oraclia.fr/page/les-oracles/l-oracle-du-belline/carte--le-hazard- (place la carte 44 sous Saturne, en désaccord avec les autres)",
+        "https://jordantarologue.wordpress.com/2014/06/24/la-carte-bleue-de-loracle-de-belline/",
+        "http://cheminsenchantes.e-monsite.com/pages/mes-pages/l-oracle-belline.html",
+        "https://www.tarotquest.co/en/review-011-oracle-belline.html",
+        "https://fr.wikipedia.org/wiki/Oracle_Belline"
+      ]
+    },
+    "rapports": [
+      {
+        "total_confirme": 53,
+        "cartes_confirmees": 53,
+        "structure_confirmee": "CONFIRMÉE. Le jeu compte 53 cartes : les cartes 1 à 3 sont les cartes maîtresses sans planète (la destinée, l'étoile de l'homme, l'étoile de la femme), suivies de 49 cartes planétaires, 7 par planète, puis d'une carte bleue vierge sans numéro. Ordre des planètes : Soleil 4-10, Lune 11-17, Mercure 18-24, Vénus 25-31, Mars 32-38, Jupiter 39-45, Saturne 46-52. J'ai vérifié moi-même les 53 scans du jeu publiés sur oracle-de-belline.com. Numéro en haut à gauche : oui. Écusson planétaire en haut à droite, absent sur 1-3 et sur la carte bleue : oui. Couleurs des écussons : jaune pour le Soleil, rose-beige moucheté de brun pour la Lune, multicolore pour Mercure, vert pour Vénus, rouge pour Mars, bleu pour Jupiter, gris-noir pour Saturne. Titres verticaux en gothique minuscule le long du bord droit : oui. Un second scan, indépendant et plus ancien (chris-semet.net, 2012), confirme l'orthographe « déspotisme ». Le total de 53 apparaît aussi dans les fiches produit Grimaud (EAN 3114523940716, 60 x 96 mm) chez BCD Jeux, BNAM, Empereur, VG Librairies et Tarot.nl. La structure par planète est la même chez Françoise Miquel (Leduc), kinthia.com, kartomanta.com, chris-semet.net, wiltarologie.fr (Vénus et Mars) et oracle-de-belline.com. Une seule source n'est pas d'accord : oracledebelline.com (sans tirets) intervertit Mercure et Vénus, en mettant 18-24 sous Vénus et 25-31 sous Mercure, dans son menu comme dans ses fiches. C'est cette source qui se trompe : sur les scans, les cartes 18-24 portent le symbole de Mercure sur un écusson multicolore, et les cartes 25-31 le symbole de Vénus sur un écusson vert. Petite précision : la signature « Edmond » ne se trouve pas que sur les cartes 1-3. Elle apparaît aussi sur le parchemin de la carte 4 (la nativité). La seule fiche officielle de Grimaud/Cartamundi que j'ai trouvée (Gibert) renvoie une erreur 403. Le total et la carte bleue reposent donc sur des fiches de revendeurs.",
+        "erreurs": [
+          {
+            "carte": "8 pensée amitié — Soleil",
+            "probleme": "L'orthographe imprimée n'est pas reproduite exactement. La carte porte un point entre les deux mots (« pensée.amitié »). La liste garde pourtant le point pour la 21 (« vol. perte »). Le numéro et la planète sont corrects.",
+            "correction": "Écrire « pensée.amitié » (ou « pensée. amitié »), pour rester cohérent avec « vol. perte ». Les livres et les sites écrivent « Pensée/Amitié », « Pensée - Amitié » ou « Pensée Amitié ».",
+            "sources": [
+              "Scan de la carte 8 : https://www.oracle-de-belline.com/wp-content/uploads/2024/09/08-pensee-amitie-belline.jpg",
+              "F. Miquel, Je m'initie à l'Oracle de Belline, Leduc (« Pensée/Amitié ») : https://www.editionsleduc.com/extract/12381",
+              "https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-le-soleil/ (« Pensée - Amitié »)"
+            ]
+          },
+          {
+            "carte": "9 campagne santé — Soleil",
+            "probleme": "Même écart de ponctuation : la carte porte un point après « campagne », avec un espace avant « santé » (« campagne . santé »). La liste supprime ce séparateur. Le numéro et la planète sont corrects.",
+            "correction": "Écrire « campagne. santé » si l'on veut l'orthographe exacte de la carte. Ailleurs on trouve « Campagne/Santé » (Miquel) ou « Campagne-Santé » (kartomanta).",
+            "sources": [
+              "Scan de la carte 9 : https://www.oracle-de-belline.com/wp-content/uploads/2024/09/09-campagne-sante-belline.jpg",
+              "https://www.editionsleduc.com/extract/12381",
+              "https://www.kartomanta.com/oracle-de-belline-les-cartes-renversees-et-leurs-significations"
+            ]
+          },
+          {
+            "carte": "carte bleue (hors série)",
+            "probleme": "La carte elle-même est correcte : 53e carte, vierge, sans numéro ni planète, même bordure que les autres. En revanche, la liste des noms qu'on lui donne est incomplète. Chris Semet l'appelle « La Protection ». oracledebelline.com la numérote « n°0 », et non « 00 » ; « 00 » n'apparaît que dans un nom de fichier image d'oracle-de-belline.com. Je n'ai trouvé « 53e carte » écrit nulle part.",
+            "correction": "Ajouter le nom « La Protection » (Chris Semet) et la numérotation « n°0 » (oracledebelline.com). La précision sur Miquel est exacte : c'est elle qui a baptisé la carte « La Piscine » (« J'ai pris la liberté de nommer ainsi… »), et elle ajoute qu'elle imagine que c'était une carte de remplacement à l'origine, peut-être un joker. kinthia.com la présente comme une carte joker.",
+            "sources": [
+              "https://chris-semet.net/2012/06/25/loracle-de-belline-les-quatre-premieres-cartes/",
+              "https://oracledebelline.com/",
+              "https://editionsleduc.com/extract/10436",
+              "https://www.kinthia.com/oracles/oracle-belline.php",
+              "https://www.oracle-de-belline.com/premieres-cartes/carte-bleue/"
+            ]
+          }
+        ],
+        "manquantes": [],
+        "en_trop": [],
+        "sources": [
+          "Scans des 53 cartes (lus un par un : numéro, écusson, titre) : https://www.oracle-de-belline.com/wp-content/uploads/2024/09/ (fichiers 00-carte-bleue-belline.jpg à 52-cloitre-belline.jpg)",
+          "Liste et fiches carte par carte : https://www.oracle-de-belline.com/",
+          "https://www.kinthia.com/oracles/oracle-belline.php (liste complète avec les planètes ; la 1 y est appelée « La clé », la 29 « Amour », la 22 « Entreprise »)",
+          "https://www.kartomanta.com/oracle-de-belline-les-cartes-renversees-et-leurs-significations (53 cartes par planète, écrit « Hazard » et « Amor »)",
+          "Chris Semet, chris-semet.net : les 4 premières cartes, puis une page par planète (Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne), par ex. https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-mars/ ; le scan https://chris-semet.net/wp-content/uploads/2012/06/34-Le-Despotisme.jpg montre « déspotisme » imprimé",
+          "Françoise Miquel, Je m'initie à l'Oracle de Belline – guide visuel, Leduc, ISBN 979-10-285-3821-7 (sommaire des 53 cartes par planète : « Le Hazard », « Amor », « Despotisme ») : https://www.editionsleduc.com/extract/12381",
+          "Françoise Miquel, L'Oracle de Belline – le guide complet d'initiation, Leduc (53 cartes, « La Piscine », la clé signée Edmond) : https://editionsleduc.com/extract/10436",
+          "https://www.wiltarologie.fr/Blog_Articles.G/b32197a/Oracle-de-Belline-cartes-venusiennes-et-martiennes (cartes de Vénus et de Mars)",
+          "https://oracledebelline.com/ (source qui contredit les autres : Mercure et Vénus y sont intervertis, ce qui est une erreur de ce site)",
+          "Fiche produit Grimaud, EAN 3114523940716, 53 cartes de 9,6 x 6 cm : https://www.bcd-jeux.fr/jeux-de-cartes-traditionnels/11616-oracle-belline-grimaud-3114523940716.html",
+          "Fiche produit Grimaud, 53 cartes de 60 x 96 mm : https://www.bnam.fr/produit/grimaud-oracle-de-belline/",
+          "https://empereur.fr/en/cards/4586-oracle-de-belline-3114523940716.html (53 cartes)",
+          "https://www.vg-librairies.fr/grand-public/10857-oracle-de-belline.html (Grimaud 1999, 53 cartes)",
+          "https://www.tarot.nl/?p=35737 (édition de luxe, 53 cartes en 7 groupes planétaires)",
+          "https://oracledebelline.com/acheter.html (coffret Grimaud : 53 cartes, dont la carte bleue n°0)"
+        ]
+      },
+      {
+        "total_confirme": 53,
+        "cartes_confirmees": 53,
+        "manquantes": [],
+        "en_trop": [],
+        "erreurs": [
+          {
+            "carte": "8 pensée amitié — Soleil",
+            "probleme": "La planète et le numéro sont justes, mais pas l'orthographe imprimée. Sur la carte, un point sépare les deux mots, comme sur la 21 : on lit « pensée.amitié ». La liste garde le point pour « vol. perte » mais l'enlève ici, ce qui n'est pas cohérent. Les sources textuelles confirment qu'il y a bien un séparateur : « Pensée/Amitié » chez Miquel, « Pensées – Amitiés » chez Chris Semet, « Pensée - Amitié » sur The Sibyls Tarot.",
+            "correction": "8 pensée. amitié (au plus près du tirage : « pensée.amitié ») — Soleil",
+            "sources": [
+              "https://www.oracle-de-belline.com/wp-content/uploads/2024/09/08-pensee-amitie-belline.jpg",
+              "https://www.editionsleduc.com/extract/12381",
+              "https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-le-soleil/",
+              "https://www.thesibylstarot.com/post/oracle-belline-card-meanings"
+            ]
+          },
+          {
+            "carte": "9 campagne santé — Soleil",
+            "probleme": "La planète et le numéro sont justes, mais pas l'orthographe imprimée. Sur le scan, on lit « campagne. santé », avec un point après « campagne ». La liste l'écrit sans ponctuation. Le séparateur se retrouve aussi chez Miquel (« Campagne/Santé ») et chez Chris Semet (« Campagne – Santé »).",
+            "correction": "9 campagne. santé — Soleil",
+            "sources": [
+              "https://www.oracle-de-belline.com/wp-content/uploads/2024/09/09-campagne-sante-belline.jpg",
+              "https://www.editionsleduc.com/extract/12381",
+              "https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-le-soleil/"
+            ]
+          }
+        ],
+        "structure_confirmee": "Pour l'Oracle Belline, la structure de la liste est confirmée sur le fond : 53 cartes au total. (1) Trois cartes maîtresses sans planète, numérotées 1 à 3 : la destinée, l'étoile de l'homme et l'étoile de la femme. Miquel les dit signées par le Mage Edmond. (2) 49 cartes planétaires, 7 par planète, dans l'ordre Soleil 4-10, Lune 11-17, Mercure 18-24, Vénus 25-31, Mars 32-38, Jupiter 39-45, Saturne 46-52. (3) Une carte bleue sans dessin, sans titre, sans numéro et sans écusson, avec la même bordure que les autres. Miquel l'appelle « La Piscine » et précise que ce nom vient d'elle ; elle y voit une ancienne carte de remplacement ou un joker, qui adoucit les cartes voisines.\n\nChaque attribution planétaire des cartes 4 à 52 est donnée de la même façon par au moins 4 sources indépendantes : le sommaire du livre de Miquel (Leduc), oracle-de-belline.com (la planète figure dans l'adresse de chaque page), kinthia.com, chris-semet.net (une page par planète, 2012) et tirageamour.com. Le total de 53 est aussi donné par Miquel, kartomanta, tarot-ana et Wikipédia (FR).\n\nJ'ai regardé les 53 scans haute définition publiés par oracle-de-belline.com, et ils confirment la mise en page décrite : numéro en haut à gauche, écusson planétaire en haut à droite, absent sur les cartes 1 à 3 et sur la carte bleue. Les couleurs des écussons correspondent : jaune pour le Soleil, rosé moucheté pour la Lune, multicolore pour Mercure, vert pour Vénus, rouge pour Mars, bleu pour Jupiter, noir ou gris très foncé pour Saturne. Le titre est écrit à la verticale le long du bord droit, en minuscules gothiques, et se lit de bas en haut.\n\nLes scans tranchent aussi l'orthographe là où les sites divergent, et la liste a raison sur chaque point. On lit « honneurs » et « pourparlers » au pluriel, alors que le sommaire de Miquel écrit « Honneur » et « Pourparler ». On lit « déspotisme » avec un accent, alors que la plupart des sites écrivent « Despotisme ». On lit « amor », pas « Amour » comme chez tarot-ana, kinthia, tirageamour et oraclia. On lit « le hazard » avec un z, pas « Le hasard ». Sont confirmés aussi « vol. perte », « la nativité », « l'intelligence », « la paix », « la table », « la renommée », « la grâce », « les pénates », « l'eau » et « cloître ». Pour « cloître », le î est partiellement masqué par le dessin.\n\nDeux points incertains. Sur la carte 22, un petit point semble suivre « entreprises », mais ce peut être un défaut d'impression, donc je ne le compte pas comme une erreur. Kinthia appelle la carte 1 « La clé ». Enfin, la vérification de l'orthographe imprimée ne repose que sur un seul jeu de scans en haute définition. Un second scan, plus petit, sur tarot-ana (carte 8) concorde, mais il est trop flou pour voir la ponctuation.",
+        "sources": [
+          "https://www.editionsleduc.com/extract/12381 (Françoise Miquel, « Je m'initie à l'oracle de Belline », Leduc : sommaire carte par carte, avec les planètes)",
+          "https://editionsleduc.com/extract/10436 (Françoise Miquel, « L'Oracle de Belline, le guide complet », Leduc : La Piscine / carte bleue, cartes 1 et 2)",
+          "https://www.oracle-de-belline.com/ (une page par carte, la planète dans l'adresse)",
+          "https://www.oracle-de-belline.com/wp-content/uploads/2024/09/ (scans haute définition des 53 cartes, par ex. 34-despotisme-belline.jpg, 44-le-hazard-belline.jpg, 00-carte-bleue-belline.jpg)",
+          "https://www.kinthia.com/blog/oracle-de-belline/",
+          "https://chris-semet.net/2012/06/25/loracle-de-belline-les-cartes-gouvernees-par-le-soleil/ (et les pages -la-lune, -mercure, -venus, -mars, -jupiter, -saturne)",
+          "https://www.tirageamour.com/oracle-belline.htm",
+          "https://www.kartomanta.com/oracle-belline",
+          "https://www.tarot-ana.fr/tarot-gratuit/oracle-de-belline/cartes-de-loracle-de-belline/",
+          "https://www.tarot-ana.fr/tarot-gratuit/oracle-de-belline/cartes-de-loracle-de-belline/carte-bleue-dans-loracle-de-belline/",
+          "https://www.thesibylstarot.com/post/oracle-belline-card-meanings",
+          "https://fr.wikipedia.org/wiki/Oracle_Belline"
+        ]
+      }
+    ],
+    "final": {
+      "total_cartes": 53,
+      "structure": "Oracle Belline (pas le tarot de Marseille), 53 cartes. Les 52 premières sont numérotées de 1 à 52 ; la dernière est une carte bleue vierge. (1) Trois cartes maîtresses sans planète, numérotées 1 à 3 : la destinée, l'étoile de l'homme, l'étoile de la femme. Elles sont signées du Mage Edmond, comme le parchemin de la carte 4. (2) 49 cartes planétaires, 7 par planète, dans cet ordre : Soleil 4-10, Lune 11-17, Mercure 18-24, Vénus 25-31, Mars 32-38, Jupiter 39-45, Saturne 46-52. (3) Une carte bleue hors série, bleu ciel, sans dessin, sans titre, sans numéro ni écusson, avec la même bordure que les autres. Selon les sources, elle s'appelle « carte bleue », « n°0 », « 00 », « 53e carte », « La Piscine » (nom donné par F. Miquel) ou « La Protection » (Chris Semet). Mise en page : numéro en haut à gauche, écusson de la planète en haut à droite (absent sur 1-3 et sur la carte bleue), titre vertical en minuscules gothiques le long du bord droit, lu de bas en haut. Couleur de l'écusson : jaune pour le Soleil, rosé moucheté pour la Lune, multicolore pour Mercure, vert pour Vénus, rouge pour Mars, bleu pour Jupiter, noir ou gris foncé pour Saturne. Correction appliquée (les deux rapports concordent, et j'ai vérifié moi-même sur les scans) : la carte 8 s'écrit « pensée.amitié » et la carte 9 « campagne. santé », avec un point, comme « vol. perte ». Les autres orthographes imprimées sont confirmées : honneurs, déspotisme, amor, le hazard, pourparlers, cloître.",
+      "cartes": [
+        {
+          "numero": "1",
+          "nom": "la destinée",
+          "planete": "aucune (carte maîtresse)",
+          "certitude": "confirmée",
+          "message": "Un choix important se présente aujourd'hui : pesez-le avec soin, car il peut orienter durablement la suite de votre chemin."
+        },
+        {
+          "numero": "2",
+          "nom": "l'étoile de l'homme",
+          "planete": "aucune (carte maîtresse)",
+          "certitude": "confirmée",
+          "message": "La présence d'un homme compte aujourd'hui : son soutien ou son regard peut vous aider à avancer avec plus d'assurance."
+        },
+        {
+          "numero": "3",
+          "nom": "l'étoile de la femme",
+          "planete": "aucune (carte maîtresse)",
+          "certitude": "confirmée",
+          "message": "Une femme de votre entourage peut vous éclairer aujourd'hui : accueillez son conseil et fiez-vous aussi à votre propre intuition."
+        },
+        {
+          "numero": "4",
+          "nom": "la nativité",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Quelque chose de neuf voit le jour : le moment est idéal pour lancer un projet ou prendre un nouveau départ."
+        },
+        {
+          "numero": "5",
+          "nom": "réussite",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Vos efforts portent enfin leurs fruits : ce que vous avez entrepris avec constance approche d'un aboutissement réjouissant."
+        },
+        {
+          "numero": "6",
+          "nom": "élévation",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Vous gagnez du terrain pas à pas : chaque marche franchie aujourd'hui consolide une progression solide et durable."
+        },
+        {
+          "numero": "7",
+          "nom": "honneurs",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Vos qualités ne passent pas inaperçues : une marque de reconnaissance pourrait saluer aujourd'hui la valeur de votre travail."
+        },
+        {
+          "numero": "8",
+          "nom": "pensée.amitié",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Une amitié sincère vous accompagne : un message, une pensée ou un geste attentionné pourrait vous réchauffer le cœur aujourd'hui."
+        },
+        {
+          "numero": "9",
+          "nom": "campagne. santé",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Accordez-vous une pause au calme, idéalement au grand air : le repos d'aujourd'hui renforcera votre énergie et votre équilibre."
+        },
+        {
+          "numero": "10",
+          "nom": "présents",
+          "planete": "Soleil",
+          "certitude": "confirmée",
+          "message": "Une belle surprise se prépare : ouvrez les yeux sur les cadeaux et les occasions que la journée vous réserve."
+        },
+        {
+          "numero": "11",
+          "nom": "trahison",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Prudence dans vos confidences aujourd'hui : gardez pour vous ce qui compte vraiment et fiez-vous aux actes plutôt qu'aux promesses."
+        },
+        {
+          "numero": "12",
+          "nom": "départ",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Un départ ou un déplacement se profile : laissez derrière vous ce qui vous pèse et accueillez le changement d'air."
+        },
+        {
+          "numero": "13",
+          "nom": "inconstance",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Les envies changent vite aujourd'hui : évitez les engagements précipités et attendez que vos idées se stabilisent avant de trancher."
+        },
+        {
+          "numero": "14",
+          "nom": "découverte",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Une réponse longtemps cherchée pourrait apparaître : votre curiosité vous mène aujourd'hui vers une découverte précieuse ou une vérité utile."
+        },
+        {
+          "numero": "15",
+          "nom": "l'eau",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Vos émotions sont à fleur de peau : accueillez-les sans vous laisser submerger, comme l'eau qui suit paisiblement son cours."
+        },
+        {
+          "numero": "16",
+          "nom": "les pénates",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Votre foyer est aujourd'hui une source de force : prenez soin de votre intérieur et savourez la douceur de chez vous."
+        },
+        {
+          "numero": "17",
+          "nom": "maladie",
+          "planete": "Lune",
+          "certitude": "confirmée",
+          "message": "Votre corps réclame de l'attention : ménagez vos forces, écoutez les signaux de fatigue et accordez-vous du repos."
+        },
+        {
+          "numero": "18",
+          "nom": "changement",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Les choses bougent autour de vous : accueillez le changement avec souplesse, il ouvre la voie à une évolution bienvenue."
+        },
+        {
+          "numero": "19",
+          "nom": "argent",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Les finances s'éclaircissent : une rentrée ou une bonne affaire pourrait améliorer votre situation, à gérer avec sagesse."
+        },
+        {
+          "numero": "20",
+          "nom": "l'intelligence",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Votre esprit est vif aujourd'hui : profitez-en pour étudier, écrire ou résoudre un problème qui demandait de la réflexion."
+        },
+        {
+          "numero": "21",
+          "nom": "vol. perte",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Gardez un œil sur vos affaires et votre argent aujourd'hui : un peu de vigilance suffit à éviter une perte inutile."
+        },
+        {
+          "numero": "22",
+          "nom": "entreprises",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Le moment est propice à l'action : lancez vos démarches, car vos initiatives trouvent aujourd'hui un terrain favorable."
+        },
+        {
+          "numero": "23",
+          "nom": "trafic",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Les échanges sont favorisés : négociez, vendez, achetez ou circulez, en gardant l'œil ouvert sur les termes de chaque accord."
+        },
+        {
+          "numero": "24",
+          "nom": "nouvelle",
+          "planete": "Mercure",
+          "certitude": "confirmée",
+          "message": "Une nouvelle est en route : un message, un appel ou une visite pourrait apporter aujourd'hui l'information que vous attendiez."
+        },
+        {
+          "numero": "25",
+          "nom": "plaisirs",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Faites une place à la légèreté : un loisir, une sortie ou un moment créatif vous apportera aujourd'hui une joie bienvenue."
+        },
+        {
+          "numero": "26",
+          "nom": "la paix",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Les tensions retombent : c'est une journée idéale pour se réconcilier, apaiser les esprits et retrouver une vraie sérénité."
+        },
+        {
+          "numero": "27",
+          "nom": "union",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Les liens se resserrent : une alliance, en amour comme en affaires, peut se concrétiser sur des bases sincères et solides."
+        },
+        {
+          "numero": "28",
+          "nom": "famille",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Vos proches sont une ressource précieuse aujourd'hui : un moment partagé en famille renforcera les liens et vous fera du bien."
+        },
+        {
+          "numero": "29",
+          "nom": "amor",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Le cœur est à l'honneur : laissez parler vos sentiments, la tendresse partagée illumine votre journée et vos relations."
+        },
+        {
+          "numero": "30",
+          "nom": "la table",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Un repas ou une réunion conviviale s'annonce : partagez la table et les rires avec ceux qui comptent pour vous."
+        },
+        {
+          "numero": "31",
+          "nom": "passions",
+          "planete": "Vénus",
+          "certitude": "confirmée",
+          "message": "Une forte intensité habite vos élans aujourd'hui : vivez pleinement vos passions, sans laisser l'excès ou la jalousie prendre le dessus."
+        },
+        {
+          "numero": "32",
+          "nom": "méchanceté",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Certaines intentions autour de vous manquent de bienveillance : faites preuve de discrétion et ne répondez pas aux provocations."
+        },
+        {
+          "numero": "33",
+          "nom": "procès",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Un désaccord pourrait se durcir : défendez vos droits avec calme, gardez une trace écrite de tout et privilégiez la conciliation."
+        },
+        {
+          "numero": "34",
+          "nom": "déspotisme",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Une autorité pesante cherche à vous imposer sa loi : préservez votre liberté intérieure et posez calmement vos limites."
+        },
+        {
+          "numero": "35",
+          "nom": "ennemis",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Une rivalité peut se manifester : avancez avec tact, évitez la confrontation directe et misez sur vos alliés de confiance."
+        },
+        {
+          "numero": "36",
+          "nom": "pourparlers",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Le dialogue est votre meilleur atout aujourd'hui : prenez le temps de discuter, d'écouter et de négocier avant toute décision définitive."
+        },
+        {
+          "numero": "37",
+          "nom": "feu",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Une belle énergie vous anime : canalisez cette ardeur dans l'action et gardez votre sang-froid face aux mouvements d'humeur."
+        },
+        {
+          "numero": "38",
+          "nom": "accident",
+          "planete": "Mars",
+          "certitude": "confirmée",
+          "message": "Un imprévu pourrait bousculer vos plans : ralentissez, redoublez de prudence dans vos gestes et vos déplacements."
+        },
+        {
+          "numero": "39",
+          "nom": "appui",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "Un soutien précieux se présente : une personne influente peut vous ouvrir des portes, osez lui demander son appui."
+        },
+        {
+          "numero": "40",
+          "nom": "beauté",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "Une belle harmonie émane de vous aujourd'hui : prenez soin de vous et laissez rayonner ce qui vous rend unique."
+        },
+        {
+          "numero": "41",
+          "nom": "héritage",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "Ce que vous avez reçu en biens, en savoirs ou en valeurs devient une force : appuyez-vous dessus pour bâtir l'avenir."
+        },
+        {
+          "numero": "42",
+          "nom": "sagesse",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "La réflexion l'emporte sur la précipitation : prenez du recul, écoutez les bons conseils et décidez avec mesure."
+        },
+        {
+          "numero": "43",
+          "nom": "la renommée",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "Votre réputation grandit et vos actions attirent les regards : c'est le moment de faire valoir vos talents."
+        },
+        {
+          "numero": "44",
+          "nom": "le hazard",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "La chance surgit là où on ne l'attend pas : laissez une place à l'imprévu, il pourrait bien vous sourire."
+        },
+        {
+          "numero": "45",
+          "nom": "bonheur",
+          "planete": "Jupiter",
+          "certitude": "confirmée",
+          "message": "Une joie simple et profonde colore votre journée : savourez ces instants de bonheur et partagez-les avec vos proches."
+        },
+        {
+          "numero": "46",
+          "nom": "infortune",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Quelques contretemps sont possibles : évitez les risques inutiles et gardez confiance, car les revers ne durent qu'un temps."
+        },
+        {
+          "numero": "47",
+          "nom": "stérilité",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Certains efforts tournent à vide : au lieu d'insister, réorientez votre énergie vers ce qui peut réellement aboutir."
+        },
+        {
+          "numero": "48",
+          "nom": "fatalité",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Un cycle arrive à son terme : acceptez ce qui ne dépend pas de vous, cette fin prépare un renouveau."
+        },
+        {
+          "numero": "49",
+          "nom": "la grâce",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Une protection bienveillante veille sur vous : même face à une difficulté, un secours inattendu peut se présenter."
+        },
+        {
+          "numero": "50",
+          "nom": "ruine",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Ménagez vos ressources aujourd'hui : consolidez ce qui est fragile et évitez les dépenses ou les risques inconsidérés."
+        },
+        {
+          "numero": "51",
+          "nom": "retard",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Les choses avancent plus lentement que prévu : armez-vous de patience, ce délai vous laisse le temps de mieux vous préparer."
+        },
+        {
+          "numero": "52",
+          "nom": "cloître",
+          "planete": "Saturne",
+          "certitude": "confirmée",
+          "message": "Un besoin de retrait se fait sentir : accordez-vous un temps de calme intérieur, sans vous couper des autres."
+        },
+        {
+          "numero": "aucun (parfois noté 0, 00 ou 53)",
+          "nom": "carte bleue (aucun titre imprimé)",
+          "planete": "aucune (hors série)",
+          "certitude": "confirmée",
+          "message": "Un ciel dégagé s'ouvre devant vous : saisissez sans attendre la chance qui passe, elle apaise les inquiétudes du moment."
+        }
+      ],
+      "points_restants": [
+        "L'orthographe imprimée ne repose que sur un seul jeu de scans HD (oracle-de-belline.com). L'édition n'est pas identifiée ; c'est probablement l'édition Grimaud actuelle. Les éditions anciennes (La Ducale 1960, Grimaud 1961 ou 1986) peuvent différer un peu sur les articles, les accents ou la ponctuation.",
+        "Carte 9 : sur le scan, on voit nettement un point après « campagne ». Une seconde petite marque avant « santé » pourrait être un deuxième point ou un détail du dessin. Je retiens « campagne. santé ».",
+        "Carte 8 : sur la carte, « pensée.amitié » est imprimé sans espace après le point. Les livres et les sites écrivent « Pensée/Amitié » ou « Pensée - Amitié ». Il reste à décider quelle forme afficher sur le site.",
+        "Carte 22 : une petite marque suit « entreprises » sur le scan. C'est probablement un défaut d'impression, donc je ne l'ai pas reprise.",
+        "Certains noms imprimés diffèrent de l'usage courant : « amor » au lieu d'« Amour », « le hazard » au lieu de « Le Hasard », « déspotisme » avec accent, « honneurs » et « pourparlers » au pluriel. Il faut choisir à l'affichage entre la forme imprimée (fidèle à la carte) et la forme usuelle (plus lisible).",
+        "Carte bleue : elle ne porte ni titre ni numéro, et les appellations varient (carte bleue, n°0, 00, 53e carte, « La Piscine » chez Miquel, « La Protection » chez Chris Semet). On ne sait pas si c'est une carte de remplacement de l'éditeur ou une vraie carte du jeu. Je n'ai pas vérifié qu'elle manque parmi les dessins conservés au Mucem.",
+        "Carte 44 (le hazard) : oraclia.fr la place sous Saturne. L'écusson bleu imprimé et la majorité des sources la donnent sous Jupiter, ce que je retiens.",
+        "Mercure et Vénus : oracledebelline.com (sans tiret) les intervertit. Je ne suis pas cet avis, car les scans montrent Mercure sur 18-24 et Vénus sur 25-31.",
+        "Le total de 53 cartes et la présence de la carte bleue reposent sur des fiches de revendeurs (EAN Grimaud 3114523940716). La fiche officielle Grimaud/Cartamundi est inaccessible (erreur 403).",
+        "Les auteurs ne s'accordent pas sur le sens de départ, l'eau, changement, trafic, passions, pourparlers, feu, héritage, fatalité, cloître et la destinée. Les messages suivent le sens le plus courant et restent volontairement nuancés pour ces cartes.",
+        "J'ai écrit les messages moi-même, sans le texte du livret Grimaud sous les yeux. Je n'ai donc pas pu vérifier mot à mot qu'aucune formule ne ressemble à celle du livret. Une relecture avec le livret reste conseillée.",
+        "On attribue les dessins au Mage Edmond (vers 1845-1865) et leur découverte à Marcel Forget, dit Belline, mais ce récit vient de Belline lui-même. Wikipédia le présente au conditionnel."
+      ]
+    }
+  },
+  "visuel": {
+    "historique": "Le jeu a été conçu et peint à la main par le « Mage Edmond », de son vrai nom Jules-Charles-Ernest Billaudot (1829-1881), voyant célèbre du Paris du Second Empire. C'était son jeu de consultation personnel : 52 cartes peintes à la gouache sur carton. La date de « 1845 » est souvent reprise par les sites de voyance, mais elle est douteuse, car Edmond n'aurait eu que 16 ans. Le Mucem situe la création dans le troisième quart du XIXe siècle, et Wikipédia parle de « vers 1845-1865 ». Marcel Forget, dit Marcel Belline (né le 12/06/1924 à Paris, mort le 09/02/2001 à Colombes selon Wikipédia ; l'école Maud Kristen indique 1994), était d'abord antiquaire. Il s'est installé comme voyant en 1954 et a récupéré les archives et les jeux d'Edmond, qu'une cliente lui aurait donnés. Le jeu a d'abord été édité sous le nom « Oracle Belline » par La Ducale en 1960, puis par Grimaud en 1961 avec 53 cartes : les 52 d'Edmond plus une « carte bleue » sans numéro, probablement ajoutée par Belline. Belline a aussi écrit les textes d'interprétation. France-Cartes (Établissements J.-M. Simon, à Saint-Max) a racheté Grimaud en 1962 et a continué d'éditer le jeu sous la marque Grimaud (par exemple l'édition de 1983). En 1977, Belline a donné tout son cabinet de voyance, avec les 52 cartes originales d'Edmond, au musée national des Arts et Traditions populaires, dont les collections sont aujourd'hui au Mucem (inventaire 1977.60.x). Il y a ajouté en 1986 le Grand Tarot d'Edmond de 78 cartes. Cartamundi a racheté France-Cartes en 2014. L'éditeur actuel du jeu classique est donc Cartamundi France, sous la marque « Grimaud » (gamme Grimaud Cartomancie), qui vend des coffrets classique, luxe ou noir et or. Depuis le 6/11/2025, les éditions Animae (groupe Leduc) publient aussi « Oracle de Belline – Les 52 cartes authentiques du Mage Edmond », qui reproduit les originaux photographiés par le Mucem, avec un livret de Maud Kristen et Raphaël Bories, conservateur au Mucem.",
+    "couleurs_planetes": [
+      {
+        "planete": "Soleil (cartes 4 à 10 : Nativité, Réussite, Élévation, Honneurs, Pensée-Amitié, Campagne-Santé, Présents)",
+        "symbole": "☉ (cercle avec un point au centre), en noir",
+        "couleur": "Blason jaune d'or uni. Mesuré sur les scans : environ #E0B050 à #F0C050.",
+        "fiabilite": "Vu sur photos : scans des cartes 4 et 5 de l'édition Grimaud (oracle-de-belline.com) et photos produit (cardshouse.eu). Cela confirme l'affirmation « jaune, or » de voyance-pure-medium.com."
+      },
+      {
+        "planete": "Lune (cartes 11 à 17 : Trahison, Départ, Inconstance, Découverte, L'eau, Les pénates, Maladie)",
+        "symbole": "☽ (croissant), en noir",
+        "couleur": "Blason beige rosé ou chamois (pêche clair, environ #E0B080 à #F0C090), semé de petits points noirs.",
+        "fiabilite": "Vu sur photos : cartes 11, 12 et 15 (scans) et photos produit cardshouse.eu. Le « argent, bleu » annoncé par certains sites (voyance-pure-medium.com) ne correspond PAS aux cartes."
+      },
+      {
+        "planete": "Mercure (cartes 18 à 24 : Changement, Argent, Intelligence, Vol-Perte, Entreprises, Trafic, Nouvelle)",
+        "symbole": "☿, en noir",
+        "couleur": "Blason bigarré, multicolore : taches jaunes, orangées, rouges, vertes et bleues mêlées, sans couleur dominante.",
+        "fiabilite": "Vu sur photos : cartes 18 et 22 (scans) et carte 18 sur une photo produit cardshouse.eu. Le « orange, gris » de voyance-pure-medium.com n'est que partiellement juste."
+      },
+      {
+        "planete": "Vénus (cartes 25 à 31 : Plaisirs, La paix, Union, Famille, Amour, La table, Passions)",
+        "symbole": "♀, en noir",
+        "couleur": "Blason vert olive ou vert sauge, environ #608050 à #708050.",
+        "fiabilite": "Vu sur photos : cartes 25 et 26 (scans) et plusieurs cartes vertes sur les photos produit cardshouse.eu. Le vert annoncé par les sites est confirmé ; le rose n'apparaît pas sur le blason."
+      },
+      {
+        "planete": "Mars (cartes 32 à 38 : Méchanceté, Procès, Despotisme, Ennemis, Pourparlers, Feu, Accident)",
+        "symbole": "♂, en noir",
+        "couleur": "Blason rouge brique, environ #A03030 à #B03030.",
+        "fiabilite": "Vu sur photos : cartes 32 et 33 (scans, une seule source photo). Kinthia et voyance-pure-medium.com disent aussi « rouge »."
+      },
+      {
+        "planete": "Jupiter (cartes 39 à 45 : Appui, Beauté, Héritage, Sagesse, La renommée, Le hasard, Bonheur)",
+        "symbole": "♃ (tracé comme un « 4 » stylisé), en noir",
+        "couleur": "Blason bleu azur clair, un peu grisé. Environ #708090 à #8090A0 sur les scans, plus bleu ciel à l'œil.",
+        "fiabilite": "Vu sur photos : cartes 39, 40 et 42 (scans) et visuel d'accueil d'oracle-de-belline.com, une seule source photo. Le « azur » des sites est confirmé ; le « bleu roi, violet » de voyance-pure-medium.com est contredit."
+      },
+      {
+        "planete": "Saturne (cartes 46 à 52 : Infortune, Stérilité, Fatalité, La grâce, Ruine, Retard, Cloître)",
+        "symbole": "♄ (tracé comme un « h » gothique barré), en noir sur fond sombre",
+        "couleur": "Blason noir ou gris anthracite, tirant parfois sur le brun-violet selon la photo. Environ #504040 à #605050.",
+        "fiabilite": "Vu sur photos de trois sources : scans des cartes 46 et 47, photo produit cardshouse.eu (carte 47) et photo Mucem de la carte ORIGINALE d'Edmond « stérilité » (inv. 1977.60.74.21), où le blason est noir et gris. Le « noir, marron » des sites est confirmé, ainsi que le « gris » de Kinthia."
+      },
+      {
+        "planete": "Cartes neutres 1 à 3 (La destinée, L'étoile de l'homme, L'étoile de la femme)",
+        "symbole": "Aucun blason",
+        "couleur": "Pas de couleur de famille. La n°1 montre une grande clé bleue et ocre ; les n°2 et 3 un hexagramme mi-jaune, mi-violet au-dessus d'un personnage.",
+        "fiabilite": "Vu sur photos (scans des cartes 1 et 2)."
+      },
+      {
+        "planete": "Carte bleue (sans numéro)",
+        "symbole": "Aucun",
+        "couleur": "Fond uni bleu ardoise ou bleu-vert grisé (environ #5E8184) dans le même cadre à palmettes, sans texte.",
+        "fiabilite": "Vu sur photos (scan). Wikipédia et Verone la présentent comme un ajout probable de Belline, absent du jeu original de 52 cartes."
+      }
+    ],
+    "description_visuelle": "Carte de l'édition Grimaud actuelle, observée sur des scans et des photos produit :\n- Format portrait à angles vifs, papier mat. Fond crème ou ivoire vieilli, environ #E0CDB0 sur les scans.\n- Cadre : une frise de palmettes (anthémions) brun sépia (environ #A87860) logées dans de petites arcades sur une bande rose saumon (environ #F0C0A8), avec de petits losanges ou feuilles vert olive (environ #909060) et des filets bruns. Le panneau intérieur a des coins arrondis. Ce cadre existait déjà, préimprimé, sur les cartes originales d'Edmond (photos du Mucem).\n- En haut à gauche : un petit numéro en chiffres à empattements (1 à 52).\n- En haut à droite : un blason (écu héraldique à pointe, contour tracé à la main) de la couleur de la planète, avec le symbole astrologique en noir.\n- Au centre : une illustration naïve de style XIXe siècle, dessinée à l'encre et coloriée en aplats façon gouache ou aquarelle (bleu, ocre jaune, rouge brique, vert, violet), avec des ombres hachurées. Ce sont des objets, animaux ou personnages emblématiques : chat noir pour Trahison, lyre pour Plaisirs, clé pour la Destinée, aigle couronné pour Appui, vieille femme pour Infortune, parchemin à thème astral signé « Edmond » pour la Nativité. L'esprit rappelle l'imagerie populaire.\n- Le mot-clé est écrit en minuscules dans une typographie gothique (blackletter), à la verticale le long du bord droit, de bas en haut. Sur les originaux d'Edmond, il était manuscrit à l'encre en cursive.\nLes cartes 1 à 3 n'ont pas de blason. La carte bleue est un simple aplat bleu dans le cadre. Le coffret actuel est noir, en simili-reptile, avec « ORACLE BELLINE » en capitales romaines dorées ; certaines éditions ont la tranche dorée. Une ancienne édition avait une boîte façon écaille.\nPalette générale : ivoire, sépia, rose saumon, vert sauge ou olive, jaune ocre doré, rouge brique, bleu azur ou ardoise, noir, plus le bleu nuit et l'or du dos.",
+    "dos_des_cartes": "Le dos de l'édition Grimaud / Cartamundi actuelle est bleu nuit, environ #262755 sur photo. Il est semé d'étoiles dorées « vieil or » (environ #BCAC64), certaines à 8 branches, d'autres plus petites ou réduites à des points. Le champ étoilé est bordé d'un liseré en dents de scie ou rayonnant, posé sur une marge or-beige ; une blogueuse le décrit comme un cadre « presque crayonné ». Je l'ai vu sur une photo produit (cardshouse.eu) et c'est confirmé par la revue du blog bleuazurpommedamourcitronvert.wordpress.com. Ce dos est une création de l'éditeur, absente des originaux d'Edmond. Le dos des éditions anciennes (1960 à 1980) n'a pas été vérifié.",
+    "format_cartes": "L'édition Grimaud mesure environ 6 x 9,7 cm (mrskuartz.com ; annonce de l'édition 1983 de France-Cartes), soit un rapport d'environ 1:1,62, très proche du nombre d'or. Les scans en 800 x 1290 px donnent le même rapport (1,61). Les angles ne sont pas arrondis et le carton est mat ; le jeu compte 53 cartes (52 + la carte bleue). Les cartes originales d'Edmond (Mucem) mesurent 6,3 x 9,8 cm, en carton peint à la gouache. Le coffret de l'édition Animae 2025 (livre et cartes) mesure 100 x 140 mm.",
+    "editeur_actuel": "Cartamundi France, sous la marque Grimaud (gamme « Grimaud Cartomancie »), qui a succédé à France-Cartes, racheté en 2014. Elle bénéficie aussi d'une licence, inscrite en 2024, sur la marque européenne « BELLINE ». Il existe en parallèle, depuis novembre 2025, l'édition des 52 cartes originales photographiées au Mucem, publiée par les éditions Animae (groupe Leduc).",
+    "points_juridiques": "Ce qui suit est une information, pas un avis d'avocat. Vu le point 1, je recommande de faire valider par un avocat en propriété intellectuelle.\n\n1) LA MARQUE (point le plus sensible)\n- Il existe une marque verbale de l'Union européenne « BELLINE », n° 018853803. Elle a été déposée le 27/03/2023, enregistrée le 19/08/2023 et elle est valable jusqu'au 27/03/2033, en France comprise. Elle couvre les classes 16, 28 (cartes à jouer et jeux de cartes liés aux arts divinatoires), 41 (enseignement, publications en ligne, images en ligne, jeux en ligne) et surtout 45 : « services de cartomancie ; conseils en astrologie ; établissement d'horoscopes ; conseils en matière spirituelle ».\n- La titulaire est une personne physique française. Une licence au profit de CARTAMUNDI FRANCE a été inscrite et publiée le 20/03/2024. Source : TMview / EUIPO, consulté le 04/10/2026. TMview n'est pas un registre officiel.\n- Je n'ai trouvé aucune marque « ORACLE BELLINE » dans TMview (France, UE, OMPI). Je n'ai pas pu consulter data.inpi.fr directement, bloqué par une vérification anti-robot : c'est à vérifier là-bas.\n- Autres marques voisines :\n  - « GRIMAUD », « GRIMAUD MAÎTRE CARTIER PARIS . 1848 » et « B.P. GRIMAUD » appartiennent à Cartamundi France.\n  - « Les Runes de Belline » est une marque française (n° 4921545, classes 16 et 28) détenue par une autre société.\n\n2) CE QUE LE SITE PEUT FAIRE\n- Citer « Oracle Belline » ou « Oracle de Belline » pour décrire la prestation, par exemple « tirage avec l'Oracle Belline » ou « jeu édité par Grimaud ». C'est l'usage de référence ou descriptif admis par l'article 14 du règlement (UE) 2017/1001 et l'article L.713-6 du CPI, à condition de respecter les usages honnêtes : texte simple, pas de logo, pas d'imitation du coffret, aucune suggestion de partenariat ou de caractère officiel.\n- Ajouter une mention du type : « Oracle Belline et Grimaud sont des marques de leurs titulaires respectifs ; site indépendant, non affilié ».\n\n3) CE QUI EST RISQUÉ OU À ÉVITER\n- Utiliser « Belline » comme nom du site, de l'entreprise, de nom de domaine, de logo ou de nom de prestation (par exemple « Belline Voyance » ou « Tirage Belline » présenté comme une offre maison). C'est le même signe pour les mêmes services (cartomancie, classe 45) : c'est un risque direct de contrefaçon.\n- Faire de la publicité sur le mot-clé « Belline » d'une manière qui laisse croire à un lien avec le titulaire ou avec Grimaud.\n\n4) LES ILLUSTRATIONS\n- Les dessins d'Edmond (mort en 1881) sont dans le domaine public, puisque la protection dure 70 ans après la mort (art. L.123-1 CPI). Le droit moral reste perpétuel : citer « dessins du Mage Edmond » et ne pas les dénaturer.\n- Une photo fidèle d'une œuvre 2D du domaine public ne crée pas de nouveau droit d'auteur (art. 14 de la directive (UE) 2019/790 ; le droit français ne protège de toute façon que les créations originales).\n- Mais attention à la source des images :\n  - (a) Scanner l'édition Grimaud reste risqué : Cartamundi peut revendiquer des droits sur sa mise en forme (composition gothique des mots-clés, retouches et couleurs si elles sont originales). Elle peut aussi agir pour parasitisme ou concurrence déloyale. Le dos étoilé bleu nuit et or et le coffret sont des créations de l'éditeur : ne pas les reproduire.\n  - (b) Les photos du Mucem (crédit « Photo Mucem / Marianne Kuhn ») sont soumises aux conditions d'utilisation du site du Mucem, qui excluent l'usage commercial ou publicitaire sans accord. Demander une autorisation au Mucem avant tout usage sur un site marchand.\n  - (c) Ne pas reprendre les scans des sites tiers (par exemple oracle-de-belline.com) ni les photos de l'édition Animae 2025, protégée comme livre (mise en page, textes de M. Kristen et R. Bories).\n- Les textes d'interprétation de Belline (mort en 2001, protégés jusqu'à fin 2071) et ceux des livres récents sont protégés : rédiger ses propres interprétations.\n- Sont libres en revanche :\n  - les noms et numéros des 52 cartes, qui viennent du système d'Edmond (domaine public) ;\n  - les symboles planétaires ;\n  - un style « naïf XIXe » (le style n'est pas protégé) ;\n  - les couleurs.\n\n5) SOLUTION LA PLUS SÛRE POUR LE REDESIGN\nFaire dessiner des cartes originales « dans l'esprit » : blasons colorés par planète, frise à palmettes, fond ivoire. On peut aussi obtenir une autorisation écrite du Mucem pour ses photos ou une licence de Cartamundi pour les visuels Grimaud.",
+    "sources": [
+      "https://fr.wikipedia.org/wiki/Oracle_Belline",
+      "https://fr.wikipedia.org/wiki/Marcel_Belline",
+      "https://mucem.org/notice/c/271634/ (carte originale « stérilité », 6,3 x 9,8 cm, gouache, inv. 1977.60.74.21, photo vue)",
+      "https://mdc.mucem.org/assets/196300/image et https://mdc.mucem.org/assets/196301/image (photos de la carte originale)",
+      "https://mucem.org/notice/c/4080029/ (Grand Tarot d'Edmond, don de Belline en 1986)",
+      "https://mucem.org/en/terms-of-use/",
+      "https://ecolemaudkristen.com/oracle-de-belline-enfin-les-cartes-originales-devoilees-au-public/",
+      "https://www.editionsleduc.com/produit/3941/9782385641887/oracle-de-belline",
+      "https://les-mots-clefs.com/le-grand-tarot-belline-mage-edmond/",
+      "https://www.oracle-de-belline.com/ (scans de toutes les cartes, en particulier 00, 01, 02, 04, 11, 15, 18, 22, 25, 32, 39, 46 vues ; couleurs mesurées sur 4, 5, 11, 12, 25, 26, 32, 33, 39, 40, 42, 46, 47)",
+      "https://www.cardshouse.eu/products/oracle-belline-cards-french-edition-grimaud-cartomancie (photos produit : dos, coffret, cartes)",
+      "https://bleuazurpommedamourcitronvert.wordpress.com/2020/11/18/revue-loracle-belline/",
+      "https://mrskuartz.com/oracle-belline/",
+      "https://larouedupasse.com/products/jeu-de-cartomancie-oracle-belline-edition-de-1983-j-m-simon-france-cartes",
+      "https://cartamundi.fr/fr/our-brands/cartomancie/",
+      "https://en.wikipedia.org/wiki/France_Cartes",
+      "https://www.verone-voyance.com/cartomancie-voyance/oracle-de-belline-signification-structure-et-conseils/",
+      "https://www.kinthia.com/blog/oracle-de-belline/",
+      "https://www.voyance-pure-medium.com/oracle-belline-les-messages-caches-derriere-chaque-carte/ (tableau de couleurs affirmé, en partie contredit par les photos)",
+      "https://www.voyancecatielle.fr/l-oracle-de-belline-origines-et-fonctionnement",
+      "https://aeternum.fr/fr-ch/blogs/les-carnets-daeternum/decouvrir-loracle-belline",
+      "https://rolandavoyancecartomancienneenligne.wordpress.com/les-planetes-de-loracle-du-belline/",
+      "https://www.tmdn.org/tmview/ (marque UE BELLINE n° 018853803, licence Cartamundi France ; marques GRIMAUD ; « Les Runes de Belline » FR 4921545 ; aucune « ORACLE BELLINE »)",
+      "https://euipo.europa.eu/eSearch/#details/trademarks/018853803",
+      "https://copyrightblog.kluweriplaw.com/2019/06/27/the-new-copyright-directive-article-14-or-when-the-public-domain-enters-the-new-copyright-directive/"
+    ]
+  },
+  "pratique": {
+    "tirages": [
+      {
+        "nom": "Carte du jour / tirage oui-non (1 carte)",
+        "nb_cartes": 1,
+        "deroulement": "On mélange, on coupe, puis on retourne une seule lame. Sa famille planétaire donne la tonalité : Soleil, Jupiter et Vénus penchent vers le oui, Saturne et Mars vers le non ou un retard. Certains sites lisent aussi la carte qui suit pour nuancer.",
+        "usage": "Question fermée simple, message du jour. C'est le produit d'appel des sites gratuits et la porte d'entrée vers un tirage payant."
+      },
+      {
+        "nom": "Tirage ternaire (3 cartes)",
+        "nb_cartes": 3,
+        "deroulement": "Trois cartes posées en ligne. On trouve trois lectures selon les praticiens : passé, présent, futur ; ou atout, obstacle, réponse (Astrocenter) ; ou, en amour, force, faiblesse, conseil (Lumancia). On lit chaque lame, puis le trio ensemble, en regardant quelle planète domine.",
+        "usage": "Question précise et rapide (amour, travail, choix). C'est la formule d'entrée de gamme du tirage écrit payant (par exemple Kartomanta à 19 €)."
+      },
+      {
+        "nom": "Tirage en croix (5 cartes)",
+        "nb_cartes": 5,
+        "deroulement": "Quatre cartes en croix et une au centre. Dans la version classique, la carte de gauche est le « pour » (ce qui aide), celle de droite le « contre » (obstacles), celle du haut le juge (la voie à suivre, le conseil), celle du bas la sentence (le résultat), et celle du centre fait la synthèse. Les sites modernes renomment les positions (atout, blocage, conseil, réponse, évolution) et changent parfois l'ordre. Contrairement au Tarot de Marseille, la 5e carte est en général tirée, pas calculée.",
+        "usage": "Méthode phare du Belline pour une question ciblée qui demande une réponse argumentée (amour, emploi, projet). C'est la formule « intermédiaire » des offres écrites (par exemple 29 € en 5 cartes chez Kartomanta)."
+      },
+      {
+        "nom": "Tirage de l'évolution (6 lames)",
+        "nb_cartes": 6,
+        "deroulement": "Deux rangées de trois cartes : d'abord l'état du consultant, puis les facteurs extérieurs favorables ou défavorables, et enfin la carte d'aboutissement. Myst-Spiritisme décrit une variante en pyramide de 6 cartes : les cartes extérieures donnent l'attitude à adopter, les cartes intérieures l'évolution sur environ six mois.",
+        "usage": "Suivre la progression d'une situation sur quelques semaines ou quelques mois (relation qui hésite, dossier en attente)."
+      },
+      {
+        "nom": "Tirage en ligne (7 cartes)",
+        "nb_cartes": 7,
+        "deroulement": "Sept cartes en ligne horizontale : les trois premières montrent le passé et le présent, la 4e est le pivot ou la solution, les trois dernières la suite des événements. Variante proche : une carte par jour de la semaine, chaque jour étant gouverné par une planète (lundi Lune, mardi Mars, et ainsi de suite).",
+        "usage": "Panorama général d'une situation, ou prévision de la semaine à venir."
+      },
+      {
+        "nom": "Tirage mensuel (7 cartes en pyramide)",
+        "nb_cartes": 7,
+        "deroulement": "Une carte au sommet pour l'état d'esprit du mois, puis trois paires : relations et amour, travail et projets, finances.",
+        "usage": "Prévisions des 30 jours à venir, thème par thème. Se prête bien à un abonnement mensuel ou à une newsletter."
+      },
+      {
+        "nom": "Tirage analytique (9 cartes)",
+        "nb_cartes": 9,
+        "deroulement": "Trois colonnes de trois cartes : le sujet de la question, la situation actuelle, l'évolution probable.",
+        "usage": "Question précise qui mérite une analyse plus fouillée que la croix."
+      },
+      {
+        "nom": "Tirage d'ouverture (11 cartes en losange)",
+        "nb_cartes": 11,
+        "deroulement": "Dix cartes en losange autour d'une carte centrale : cinq pour le passé, cinq pour l'avenir, et la carte centrale fait apparaître la vraie question du consultant.",
+        "usage": "Première consultation, pour « faire connaissance » avec le consultant avant d'aborder ses questions."
+      },
+      {
+        "nom": "Roue astrologique / tirage des 12 maisons",
+        "nb_cartes": 12,
+        "deroulement": "Douze cartes posées en cercle, une par maison astrologique : la personnalité, l'argent, l'entourage, le foyer, les amours et les enfants, le travail et la santé, le couple et les associations, et ainsi de suite jusqu'aux épreuves. On lit chaque maison, puis la planète qui domine l'ensemble. Certains praticiens mélangent le Belline avec le Tarot de Marseille ou l'Oracle Gé.",
+        "usage": "Bilan complet de l'année, à faire en début d'année, à l'anniversaire ou lors d'une grande transition. C'est le tirage le plus « astrologique » et le meilleur pont vers un thème offert (Christine Voyance le vend 60 €)."
+      },
+      {
+        "nom": "Tirage annuel (12 cartes)",
+        "nb_cartes": 12,
+        "deroulement": "Une carte par mois, en deux rangées de six (de janvier à décembre, ou à partir du mois en cours). On lit mois par mois, puis on cherche les séries planétaires qui reviennent.",
+        "usage": "Prévisions de l'année mois par mois. Se marie bien avec l'« année personnelle » de la numérologie."
+      },
+      {
+        "nom": "Tirage du prénom",
+        "nb_cartes": 0,
+        "deroulement": "Le nombre de cartes est variable : une par lettre du prénom (on peut faire un second passage si le prénom est court). On bat, on coupe en deux, on pose les cartes une à une, souvent de droite à gauche. On lit chaque carte, puis les messages qui reviennent. Pour un couple, on fait un tirage par prénom et on compare les deux.",
+        "usage": "État des lieux d'une personne (soi ou un proche) sans question précise, ou compatibilité amoureuse. Il fait écho au calcul numérologique sur les lettres du nom."
+      },
+      {
+        "nom": "Méthode originale du Mage Edmond (comptage)",
+        "nb_cartes": 0,
+        "deroulement": "Le nombre de cartes n'est pas fixé. On mélange, on coupe de la main gauche, puis on choisit un chiffre de 1 à 9. On compte ce nombre de cartes dans le paquet et on retourne la dernière (avec 6, on écarte 5 cartes et on retourne la 6e). On recommence jusqu'à ce que le message paraisse complet, en alignant les cartes, puis on lit de droite à gauche : chaque lame seule, puis avec ses voisines.",
+        "usage": "Procédé présenté comme celui du livret historique. Il sert à une lecture libre et progressive. Le choix d'un chiffre de 1 à 9 crée un lien direct avec la numérologie."
+      },
+      {
+        "nom": "Grand tableau planétaire (21 cartes)",
+        "nb_cartes": 21,
+        "deroulement": "Sept lignes de trois cartes, une ligne par planète (Soleil, Lune, Mercure, Vénus, Mars, Jupiter, Saturne). Chaque ligne est lue dans le domaine de sa planète.",
+        "usage": "Consultation approfondie ou tirage général « tous domaines » (formule premium d'une heure)."
+      },
+      {
+        "nom": "Tirage des quatre semaines (28 cartes)",
+        "nb_cartes": 28,
+        "deroulement": "Quatre rangées de sept cartes, une carte par jour. On cherche les liens entre jours qui se suivent et les tendances de chaque semaine.",
+        "usage": "Planning détaillé du mois. Usage plutôt expert ou personnel."
+      }
+    ],
+    "prestations_constatees": [
+      {
+        "format": "Téléphone ou visio (WhatsApp, Google Meet), 1 question. Jeux : Tarot de Marseille, Belline, Triade, Lenormand",
+        "prix": "15 €",
+        "duree": "jusqu'à 10 min",
+        "source": "https://alicecartomagie.fr/consultations/"
+      },
+      {
+        "format": "Téléphone ou visio, « un domaine », questions illimitées sur ce domaine",
+        "prix": "50 €",
+        "duree": "jusqu'à 30 min",
+        "source": "https://alicecartomagie.fr/consultations/"
+      },
+      {
+        "format": "Téléphone ou visio, tirage général tous domaines. Paiement à la réservation, annulation possible jusqu'à 24 h avant. Refus des questions de santé, de jeux d'argent, sur la vie intime d'autrui et sur les mineurs",
+        "prix": "80 €",
+        "duree": "jusqu'à 60 min",
+        "source": "https://alicecartomagie.fr/consultations/"
+      },
+      {
+        "format": "Téléphone (Sophie), tirage rapide Belline : oui/non, choix",
+        "prix": "20 €",
+        "duree": "15 min max",
+        "source": "https://www.tirage-de-runes.com/"
+      },
+      {
+        "format": "Téléphone, tirage classique Belline et runes : travail, amour, famille",
+        "prix": "35 €",
+        "duree": "environ 30 min",
+        "source": "https://www.tirage-de-runes.com/"
+      },
+      {
+        "format": "Téléphone, tirage et relation d'aide (oracles et runes). Le même prix s'applique au « calendrier annuel » par tirages. Paiement Stripe ou PayPal",
+        "prix": "50 €",
+        "duree": "environ 1 h",
+        "source": "https://www.tirage-de-runes.com/"
+      },
+      {
+        "format": "Réponse écrite à 1 question précise, par mail ou WhatsApp (Tarot de Marseille, Triade, Belline)",
+        "prix": "6 €",
+        "duree": "réponse sous 24 h",
+        "source": "https://www.divineoracles.fr/"
+      },
+      {
+        "format": "Réponse vocale à 1 question (2 questions : 16 €)",
+        "prix": "9 €",
+        "duree": "réponse sous 2 à 7 jours",
+        "source": "https://www.divineoracles.fr/"
+      },
+      {
+        "format": "Téléphone WhatsApp, questions précises, paiement 7 jours avant",
+        "prix": "25 €",
+        "duree": "15 min",
+        "source": "https://www.divineoracles.fr/"
+      },
+      {
+        "format": "Tirage écrit par e-mail « Express », 3 cartes, Belline ou autre jeu selon la question",
+        "prix": "19 €",
+        "duree": "envoi sous 48 h ouvrées",
+        "source": "https://www.kartomanta.com/tirage-cartes"
+      },
+      {
+        "format": "Tirage écrit par e-mail « Conseil » (le plus mis en avant), 5 cartes : blocages, opportunités, pistes. Mention : « ne remplace pas un avis médical, juridique ou financier »",
+        "prix": "29 €",
+        "duree": "envoi sous 48 h ouvrées",
+        "source": "https://www.kartomanta.com/tirage-cartes"
+      },
+      {
+        "format": "Spécialiste Belline (Ami Belline) : en cabinet à Lorient ou Paris, ou par téléphone ou Skype, même tarif. Paiement PayPal avant la séance",
+        "prix": "65 € / 130 € / 200 € / 400 €",
+        "duree": "40 min / 1 h / 2 h / 3 h",
+        "source": "https://www.ami-belline.com/copie-de-services"
+      },
+      {
+        "format": "Roue astrologique (12 mois, 12 domaines) avec Tarot de Marseille et Oracle Gé ou Belline, à domicile, en visio ou par téléphone",
+        "prix": "60 €, puis 35 € pour un suivi dans les 12 mois",
+        "duree": "non précisée",
+        "source": "https://www.christine-voyance.fr/roue-astrologique/"
+      },
+      {
+        "format": "Plateforme de voyance Belline par téléphone, paiement par carte bancaire",
+        "prix": "15 € TTC les 10 premières min, puis 3,50 à 9,50 €/min selon le voyant",
+        "duree": "à la minute",
+        "source": "https://www.oracle-de-belline.fr/tirage-oracle-de-belline"
+      },
+      {
+        "format": "Même plateforme : audiotel 0892 sans carte bancaire, ou SMS",
+        "prix": "0,60 €/min plus le prix d'un appel local ; SMS 0,99 €",
+        "duree": "à la minute ou au SMS",
+        "source": "https://www.oracle-de-belline.fr/tirage-oracle-de-belline"
+      },
+      {
+        "format": "Plateforme belline.fr : téléphone par carte bancaire, SMS, chat",
+        "prix": "15 € les 10 min ; SMS 0,65 €",
+        "duree": "à la minute",
+        "source": "https://www.belline.fr/planetes/le-soleil.htm"
+      },
+      {
+        "format": "Équipe de Sophie Vitali : audiotel sans carte bancaire, ou consultation privée",
+        "prix": "0,40 €/min (audiotel 0890) ; à partir de 1,50 €/min en privé",
+        "duree": "à la minute",
+        "source": "https://infinita-corse-voyance.com/tirage-oracle-de-belline-gratuit-sophie-vitali/"
+      },
+      {
+        "format": "Marketplace de praticiens « Oracle de Belline » : téléphone ou chat, 1re minute offerte (chiffres tirés d'un extrait de recherche, la page n'a pas pu être ouverte)",
+        "prix": "environ 1,90 à 2,90 €/min",
+        "duree": "à la minute",
+        "source": "https://voox.online/fr-fr/c/esoterisme/j/tarologue/s/oracle-de-belline"
+      },
+      {
+        "format": "Tirage numérique automatisé (sans voyant) sur un grand portail",
+        "prix": "1,95 € (au lieu de 3,90 €)",
+        "duree": "immédiat",
+        "source": "https://mon.astrocenter.fr/tarot/mag/methode-tirage-belline"
+      },
+      {
+        "format": "Lettre écrite par mail, Belline uniquement, 3 à 5 cartes selon la question, première lettre offerte",
+        "prix": "non affiché (1re question gratuite)",
+        "duree": "sous 24 h",
+        "source": "https://voyance-mail.fr/tirage-oracle-belline-par-mail/"
+      },
+      {
+        "format": "Cabinet Paris 1er (Les Tarots de Camille), tirage instantané ou complet",
+        "prix": "non affiché",
+        "duree": "30 min ou 60 min",
+        "source": "https://www.lestarotsdecamille.com/oracle-de-belline"
+      },
+      {
+        "format": "Etsy : tirage Belline livré en numérique (photo du tirage et interprétation écrite). Chiffres tirés d'un extrait de recherche, la page a été refusée (403)",
+        "prix": "environ 10 à 20 $",
+        "duree": "non précisée",
+        "source": "https://www.etsy.com/market/belline_oracle"
+      }
+    ],
+    "lien_numerologie": "CE QUI EST ATTESTÉ (structure du jeu)\n- Le jeu compte 53 lames : 7 familles planétaires de 7 cartes (de 4 à 52), plus des cartes sans planète : 1 La Destinée, 2 L'Étoile de l'Homme, 3 L'Étoile de la Femme, et la Carte bleue (n° 0 ou 53, sans numéro selon les éditions).\n- Les familles :\n  • Soleil, cartes 4 à 10 (Nativité, Réussite, Élévation, Honneurs, Pensée-Amitié, Campagne-Santé, Présents)\n  • Lune, 11 à 17 (Trahison, Départ, Inconstance, Découverte, L'Eau, Les Pénates, Maladie)\n  • Mercure, 18 à 24 (Changement, Argent, Intelligence, Vol-Perte, Entreprises, Trafic, Nouvelle)\n  • Vénus, 25 à 31 (Plaisirs, La Paix, Union, Famille, Amor, La Table, Passions)\n  • Mars, 32 à 38 (Méchanceté, Procès, Despotisme, Ennemis, Pourparlers, Feu, Accident)\n  • Jupiter, 39 à 45 (Appui, Beauté, Héritage, Sagesse, La Renommée, Le Hazard, Bonheur)\n  • Saturne, 46 à 52 (Infortune, Stérilité, Fatalité, La Grâce, Ruine, Retard, Cloître)\n- Mots-clés de chaque famille (formulés par nous) : Soleil = réussite, rayonnement, reconnaissance ; Lune = émotions, foyer, instabilité, voyages ; Mercure = échanges, argent, commerce, nouvelles ; Vénus = amour, union, plaisirs ; Mars = conflits, procès, action brutale ; Jupiter = protection, chance, héritage, expansion ; Saturne = épreuves, lenteur, détachement.\n- La datation par les planètes est une pratique réelle. Chaque planète correspond à un jour (lundi Lune, mardi Mars, mercredi Mercure, jeudi Jupiter, vendredi Vénus, samedi Saturne, dimanche Soleil) et à une saison (Vénus = printemps, Soleil et Mars = été, Mercure et Saturne = automne). Monsitevoyance mentionne aussi « 52 cartes = 52 semaines de l'année ».\n- Le Belline est décrit comme un mélange de cartomancie et d'astrologie. La roue astrologique en 12 maisons est un tirage courant. Il existe un livre « Le Belline astrologique » (ISBN 9782361886530).\n- Attention aux confusions : l'« Oracle de l'Horoscope de Belline » (52 cartes) et le « Grand Tarot Belline » (78 cartes) sont d'autres jeux.\n\nPONTS POSSIBLES AVEC UNE PAGE « THÈME NUMÉROLOGIQUE OFFERT »\nCe sont des constructions du site. Le livret officiel ne les contient pas : il faut les présenter comme une correspondance proposée, pas comme une tradition.\n1) Le nombre de vie donne la « planète maîtresse », qui donne une famille Belline. Correspondance courante en numérologie (convention chaldéenne / Cheiro, reprise par exemple par astrologyk) : 1 Soleil, 2 Lune, 3 Jupiter, 4 Uranus, 5 Mercure, 6 Vénus, 7 Neptune, 8 Saturne, 9 Mars. Le Belline n'a que les 7 planètes classiques, donc 4 et 7 n'ont pas de famille. Deux solutions : la règle chaldéenne (4 rattaché au Soleil, 7 à la Lune) ou les maîtres traditionnels (4/Uranus vers Saturne, 7/Neptune vers Jupiter). Pour les nombres maîtres 11, 22 et 33, on peut les réduire, ou les rattacher aux cartes maîtresses (Destinée, Étoiles). Résultat pour le visiteur : « Votre nombre de vie 6 est gouverné par Vénus : les 7 lames vénusiennes du Belline sont vos cartes clés ; un tirage Belline vous dira laquelle s'active en ce moment. »\n2) La méthode du Mage Edmond se prête bien au lien : elle demande un chiffre de 1 à 9 pour compter les cartes. On peut proposer d'utiliser le nombre de vie, ou le chiffre de l'année personnelle, comme nombre de comptage.\n3) Le tirage du prénom (une carte par lettre) fait écho au nombre d'expression calculé à partir des lettres du nom. Les deux se calculent avec les mêmes données saisies pour le thème offert (prénom et date de naissance).\n4) L'année personnelle de la numérologie se prolonge naturellement par le tirage annuel en 12 cartes (une par mois) ou la roue des 12 maisons. Moment idéal : anniversaire ou janvier.\n5) Le chiffre 7 relie tout : 7 planètes, 7 cartes par famille, 7 jours. Un tirage de la semaine en 7 cartes, une par jour et donc une par planète, s'enchaîne bien avec un « jour favorable » calculé en numérologie.\n6) Ce modèle existe déjà : Astroya propose une roue astrologique Belline gratuite (12 maisons, 53 cartes), débloque l'interprétation complète contre une inscription à la newsletter, puis vend des rapports astro payants (thème natal en PDF, prévisions sur 12 mois). C'est exactement l'entonnoir « offert, puis tirage payant ».",
+    "vocabulaire": [
+      "lame / carte (« les 53 lames »)",
+      "Mage Edmond (Edmond Billaudot, 1829-1881) : auteur présumé des dessins",
+      "Marcel Belline : voyant qui a publié le jeu (La Ducale 1960, Grimaud 1961)",
+      "famille planétaire / série (solaire, lunaire, mercurienne, vénusienne, martienne, jupitérienne, saturnienne)",
+      "septénaire (les 7 planètes classiques)",
+      "dominante planétaire / tonalité du tirage (la planète la plus présente)",
+      "cartes maîtresses / cartes sans influence planétaire (Destinée, Étoile de l'Homme, Étoile de la Femme, Carte bleue)",
+      "carte du consultant / significateur (Étoile de l'Homme ou de la Femme)",
+      "Carte bleue : joker de protection, « lumière du tirage » qui adoucit les lames négatives voisines",
+      "associations / combinaisons de cartes (lire les lames ensemble, jamais seules ; un livre en recense plus de 2600)",
+      "voisinage des lames, cartes voisines",
+      "tirage en croix : le pour, le contre, le juge, la sentence, la synthèse",
+      "atout / blocage / conseil / réponse / évolution",
+      "tirage ternaire, tirage de l'évolution, tirage en ligne, tirage mensuel, tirage annuel",
+      "roue astrologique / tirage des 12 maisons",
+      "tirage du prénom",
+      "méthode originale / méthode du Mage (comptage de 1 à 9)",
+      "couper de la main gauche ; lire de droite à gauche",
+      "datation / temporalité (jour ou saison de la planète, semaine de la carte)",
+      "cartes renversées (pratique discutée, beaucoup de praticiens ne la lisent pas)",
+      "réponse factuelle / événementielle (le Belline « nomme » les choses, à la différence des tarots symboliques)",
+      "consultant(e), question, éclairage, guidance, tendance, pistes de réflexion",
+      "domaine (amour, travail, argent, famille), tirage un domaine, tirage général",
+      "carte du jour, tirage oui/non",
+      "formulation de la question (question ouverte plutôt que fermée)"
+    ],
+    "questions_frequentes_clients": [
+      "Va-t-il ou va-t-elle revenir ? (la question la plus fréquente après une rupture ; les formateurs conseillent de la reformuler)",
+      "Est-ce qu'il m'aime encore ? Pense-t-il à moi ? Est-il sincère ?",
+      "Ma relation va-t-elle durer ? Allons-nous nous marier ou nous installer ensemble ?",
+      "Quand vais-je rencontrer quelqu'un ? (le Belline est réputé pour la datation)",
+      "Vais-je trouver un travail ou obtenir ce poste ? Ma reconversion va-t-elle marcher ?",
+      "Est-ce le bon moment pour signer, déménager, vendre, lancer mon projet ?",
+      "Questions d'argent, d'héritage, de procès ou de conflit (des cartes du jeu portent ces noms)",
+      "Questions oui/non sur une décision précise",
+      "Côté service : quelle différence entre le Belline et le Tarot de Marseille ?",
+      "Combien de cartes et quel tirage pour ma question ? Puis-je poser plusieurs questions ?",
+      "Sous quel délai vais-je recevoir ma réponse écrite (24 h, 48 h) ? Est-ce confidentiel ?",
+      "Le Belline peut-il donner une date ou une période ?",
+      "Que veut dire une carte négative (Ruine, Accident, Maladie, Trahison) ? Est-ce grave ?",
+      "Que signifie la Carte bleue si elle sort ?",
+      "Puis-je faire un tirage sur une autre personne (ex, conjoint) ou sur mon prénom ?",
+      "Puis-je être remboursé si la consultation ne me convient pas ?"
+    ],
+    "reglementation": "CADRE GÉNÉRAL\n- La voyance est une activité libre en France depuis le 1er mars 1994, date d'abrogation de l'article R.34-7 de l'ancien Code pénal, qui punissait le métier de « deviner et pronostiquer ». Aucun diplôme ni agrément n'est exigé. Il n'existe pas de loi propre à la voyance : ce sont le droit de la consommation, le Code pénal et le droit du numérique qui s'appliquent.\n\nSTATUT ET FISCALITÉ\n- Profession libérale non réglementée, déclarée en BNC. Code APE habituel : 96.09Z (« Autres services personnels n.c.a. »). La micro-entreprise est le statut le plus courant ; l'immatriculation passe par le guichet unique et les cotisations par l'URSSAF (environ un quart du chiffre d'affaires, taux à vérifier chaque année).\n- Plafond de la micro-entreprise pour les services : 83 600 € (valeur 2026 indiquée par le Portail auto-entrepreneur).\n- Franchise de TVA : seuil maintenu à 37 500 € pour les services en 2026 (la réforme à 25 000 € n'a pas été adoptée). Les factures doivent porter « TVA non applicable, art. 293 B du CGI » et le nom doit être suivi de « EI ».\n\nOBLIGATIONS DU SITE DE VENTE\n- Mentions légales (LCEN 2004) : nom, adresse, SIREN, contact, hébergeur. Sanction : jusqu'à 1 an de prison et 75 000 € d'amende.\n- CGV obligatoires face aux particuliers : description du service, prix TTC en euros, modalités de paiement et d'exécution, droit de rétractation, réclamations, et coordonnées d'un médiateur de la consommation (obligatoire, art. L612-1 du Code de la consommation).\n- Information avant contrat (art. L111-1 et L221-5) : prix, durée, format (écrit, téléphone, visio), délai de réponse, identité du praticien.\n- Droit de rétractation de 14 jours (art. L221-18). Il disparaît pour un service entièrement exécuté avant la fin de ce délai (art. L221-28 1°) seulement si le client a donné son accord exprès et renoncé expressément à son droit. Pour un tirage écrit livré en 24 ou 48 h, il faut donc une case à cocher dédiée avant le paiement.\n- Abonnements : depuis le 1er juin 2023, la résiliation doit pouvoir se faire en ligne, gratuitement et facilement (« résiliation en trois clics »).\n- RGPD et CNIL : le prénom, la date de naissance et les questions intimes sont des données personnelles. Il faut indiquer la finalité, la durée de conservation et les droits du client, et obtenir un consentement aux cookies. Pour un thème numérologique offert contre un e-mail : consentement séparé et explicite à la prospection (art. L34-5 du CPCE), sans case pré-cochée.\n\nINTERDITS ET RISQUES PÉNAUX\n- Pratiques commerciales trompeuses (art. L121-2 du Code de la consommation ; jusqu'à 2 ans de prison et 300 000 € d'amende, art. L132-2) : pas de promesse de résultat (« retour de l'être aimé garanti »), pas de « voyance gratuite » qui cache un paiement, pas de faux avis ni de pouvoirs présentés comme prouvés. Une enquête de la DGCCRF (2020) a relevé des anomalies sur une majorité de sites de voyance contrôlés.\n- Escroquerie (art. 313-1 du Code pénal) et abus de faiblesse (art. 223-15-2 du Code pénal) : risque important face à des clients vulnérables (deuil, rupture, isolement), surtout en cas de consultations répétées ou de surfacturation.\n- Exercice illégal de la médecine (art. L4161-1 du Code de la santé publique) : aucun diagnostic ni pronostic de santé. Depuis la loi du 10 mai 2024 sur les dérives sectaires, inciter quelqu'un à abandonner ses soins est aussi un délit. Les praticiens refusent aussi d'habitude les questions sur la mort, sur les jeux d'argent et sur des tiers.\n\nMINEURS\n- Aucun texte n'impose expressément 18 ans pour la voyance. Mais un mineur ne peut conclure seul que des actes courants (art. 1148 du Code civil) : une consultation payante est donc annulable. En pratique, tous les sites réservent le service aux majeurs : case « je certifie avoir 18 ans » dans les CGV et refus des questions sur des mineurs.\n\nNUMÉROS SURTAXÉS (seulement si audiotel 08 ou SMS+)\n- Recommandations déontologiques SVA+ (2021) : prix TTC affiché sur tous les supports, message gratuit d'information tarifaire au début de l'appel, praticien identifié par son nom, et mention que les conseils sont donnés « à titre indicatif ».\n\nBONNES PRATIQUES COURANTES (pas obligatoires mais conseillées)\n- Une mention du type « outil de guidance et de développement personnel, ne remplace pas un avis médical, juridique ou financier » (utilisée par Kartomanta), une charte déontologique (sujets refusés), le paiement avant la séance, et des conditions d'annulation claires (par exemple sans frais jusqu'à 24 h avant, puis séance due).",
+    "sources": [
+      "https://www.editionsleduc.com/extract/12381",
+      "https://fr.wikipedia.org/wiki/Oracle_Belline",
+      "https://www.kartomanta.com/tirages-oracle-belline",
+      "https://www.kartomanta.com/tirage-en-croix-oracle-belline",
+      "https://www.kartomanta.com/tirage-oracle-belline-methode-originale",
+      "https://www.kartomanta.com/oracle-belline-tirage-prenom-comment-predire-votre-avenir-ou-celui-dun-proche",
+      "https://www.kartomanta.com/oracle-belline",
+      "https://www.kartomanta.com/tirage-cartes",
+      "https://mon.astrocenter.fr/tarot/mag/methode-tirage-belline",
+      "https://myst-spiritisme.fr/divination/l-oracle-belline/les-principaux-tirages-de-l-oracle-belline/",
+      "https://lumancia.com/blog/25-tirage-amour-belline-methodes-et-interpretation-des-cartes",
+      "https://tirage-oracle.com/oracle-de-belline-gratuit-tirage-en-ligne-signification-interpretation/",
+      "https://www.oracle-de-belline.com/tirage-gratuit-belline-3-cartes/",
+      "https://www.oracle-de-belline.com/premieres-cartes/",
+      "https://www.belline.fr/planetes/le-soleil.htm",
+      "https://lemessagedivinatoire.eklablog.com/les-planetes-dans-l-oracle-de-belline-la-serie-du-soleil-a122340690",
+      "https://www.monsitevoyance.com/oracles/oracle-de-belline.php",
+      "https://www.monsitevoyance.com/oracles/oracle-horoscope-de-belline.php",
+      "https://www.horoscope.fr/tarots/les-incontournables/l-oracle-belline",
+      "https://www.astroya.fr/pages/oracle-de-belline",
+      "https://fr.astrologyk.com/numerologie/planetes",
+      "https://www.brigitte-tarologue.fr/tirage-oracle-de-belline-lyon-en-ligne-par-telephone/",
+      "https://alicecartomagie.fr/consultations/",
+      "https://www.tirage-de-runes.com/",
+      "https://www.divineoracles.fr/",
+      "https://www.ami-belline.com/copie-de-services",
+      "https://www.christine-voyance.fr/roue-astrologique/",
+      "https://www.oracle-de-belline.fr/tirage-oracle-de-belline",
+      "https://infinita-corse-voyance.com/tirage-oracle-de-belline-gratuit-sophie-vitali/",
+      "https://voox.online/fr-fr/c/esoterisme/j/tarologue/s/oracle-de-belline",
+      "https://voyance-mail.fr/tirage-oracle-belline-par-mail/",
+      "https://www.lestarotsdecamille.com/oracle-de-belline",
+      "https://www.etsy.com/market/belline_oracle",
+      "https://www.clevao.com/belline-vous-devriez-stopper-ces-questions-tuto-3/",
+      "https://www.clevao.com/va-t-il-revenir-separation-la-question-qui-tue-tutoriel-video-oracle-de-belline/",
+      "https://www.portail-autoentrepreneur.fr/academie/fiches-metiers/sante-bien-etre/voyance",
+      "https://entreprendre.service-public.gouv.fr/vosdroits/F31228",
+      "https://www.socic.fr/ressources-comptabilite/articles/micro-entreprise-et-tva-en-2026-franchise-depassement-de-seuils-regime-reel-et-option-volontaire/",
+      "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000032227360",
+      "https://questions.assemblee-nationale.fr/dyn/16/questions/QANR5L16QE6608.pdf",
+      "https://af2m.org/wp-content/uploads/2021/05/RD_SVA_Fev2021.pdf",
+      "https://www.associationdesavocatsnumeriques.fr/la-regulation-des-consultations-de-voyance-en-ligne-enjeux-juridiques-et-protection-des-consommateurs/"
+    ]
+  }
+}
