@@ -1,8 +1,8 @@
-# Astres & Nombres
+# Oracle & Nombres
 
 Site d'une page : un **thème numérologique offert** (chemin de vie, nombre d'expression, nombre intime, nombre de personnalité, année personnelle, planète dans l'Oracle Belline) et une **prestation de tirage de l'Oracle Belline** (formules, lame du jour selon la méthode du Mage Edmond, réservation).
 
-Le nom « Astres & Nombres » est provisoire.
+Le nom « Oracle & Nombres » est provisoire.
 
 ## Voir le site
 
