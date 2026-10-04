@@ -64,6 +64,7 @@ body {
   -webkit-font-smoothing: antialiased;
   overflow-x: hidden;
   font-variant-numeric: lining-nums;
+  background: transparent; /* le ciel (html, body::before, #ciel) doit rester visible même si un hébergeur impose un fond au body */
 }
 
 /* nébuleuses : grands halos colorés, fixes derrière le ciel étoilé */
